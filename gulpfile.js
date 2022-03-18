@@ -14,7 +14,6 @@ const autoprefixer = require('autoprefixer');
 
 //Browser-sync
 const browserSync = require('browser-sync').create();
-
 /**************************tasks***************************************/
 //HTML task
 gulp.task('htmlmin', () => {
@@ -47,26 +46,29 @@ let cssPlugins = [
 gulp.task('css', () => {
     return gulp
         .src('./dev/styles/*.css')
-        .pipe(concat('styles-min.css'))
         .pipe(postcss(cssPlugins))
         .pipe(gulp.dest('./public/styles'))
+        .pipe(browserSync.stream());
 })
 
 
 //Browser-sync
+
 gulp.task('server', gulp.series('sass', function() {
     browserSync.init({
         server: './public'
     });
 
-    gulp.watch('./public/styles/*.css'), gulp.series('css');
+    gulp.watch('./dev/scss/*.scss'), gulp.series('sass');
     gulp.watch('./public/*.html').on('change', browserSync.reload);
 }));
+
+
 
 //gulp.watch()
 gulp.task('watch', () => {
     gulp.watch('./dev/*.html', gulp.series('htmlmin'));
-    gulp.watch('./dev/scss/*.scss', gulp.series(sass));
+    gulp.watch('./dev/scss/*.scss', gulp.series('sass'));
     gulp.watch('./dev/styles/*.css', gulp.series('css'));
 })
 
