@@ -11,8 +11,6 @@ const concat = require('gulp-concat');
 const postcss = require('gulp-postcss');
 const cssnano = require('cssnano');
 const autoprefixer = require('autoprefixer');
-//Image-min
-const imagemin = require('gulp-imagemin');
 
 //Browser-sync
 const browserSync = require('browser-sync').create();
@@ -54,17 +52,6 @@ gulp.task('css', () => {
         .pipe(gulp.dest('./public/styles'))
 })
 
-//Image-min
-gulp.task('imgmin', () => {
-    return gulp
-        .src('./dev/assets/images/*')
-        .pipe(imagemin([
-            imagemin.gifsicle({interlaced: true}),
-            imagemin.mozjpeg({quality: 30, progressive: true}),
-            imagemin.optipng({optimizationLevel: 1}),
-        ]))
-        .pipe(gulp.dest('./public/assets/images'))
-})
 
 //Browser-sync
 gulp.task('server', gulp.series('sass', function() {
