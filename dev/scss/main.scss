@@ -4,30 +4,26 @@
 @import './01-settings/breakpoints';
 //espaciados
 
-//02 - Tools
-//mixins
-//funciones
-//mediaqueries
+@import './02-tools/height';
 
 //03 - Generics
 @import './03-generics/normalize';
 @import './03-generics/base';
-//Normalize
-//base -> body y html
-//espaciados
-//Tipografia
 
 //04 - Elements
-//Etiquetas html estilos -> Output css
 @import './04-elements/headings';
 @import './04-elements/images';
 @import './04-elements/list';
 
 //05 - Objects
-//Layout - pages - sections
-//Distribucion
+@import './05-objects/header';
+@import './05-objects/computer';
+@import './05-objects/devices';
+@import './05-objects/workflow';
+@import './05-objects/logos';
+@import './05-objects/download';
+@import './05-objects/footer';
 
 //06 - Components
-//Componentes reutilizables
 
 
