@@ -10,6 +10,8 @@
 //mediaqueries
 
 //03 - Generics
+@import './03-generics/normalize';
+@import './03-generics/base';
 //Normalize
 //base -> body y html
 //espaciados
@@ -17,6 +19,9 @@
 
 //04 - Elements
 //Etiquetas html estilos -> Output css
+@import './04-elements/headings';
+@import './04-elements/images';
+@import './04-elements/list';
 
 //05 - Objects
 //Layout - pages - sections

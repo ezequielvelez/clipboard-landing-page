@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "gulp-htmlmin": "^5.0.1",
-    "mozjpeg": "^8.0.0"
+    "mozjpeg": "^8.0.0",
+    "normalize.css": "^8.0.1"
   }
 }

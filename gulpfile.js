@@ -29,7 +29,7 @@ gulp.task('htmlmin', () => {
 //SASS task
 gulp.task('sass', () => {
     return gulp
-        .src('./dev/scss/*.scss')
+        .src('./dev/scss/main.scss')
         .pipe(sass({
             outputStyle: 'compressed'
         }))
@@ -59,7 +59,7 @@ gulp.task('server', gulp.series('sass', function() {
         server: './public'
     });
 
-    gulp.watch('./dev/scss/*.scss'), gulp.series('sass');
+    gulp.watch('./dev/scss/*.scss').on('change', browserSync.reload), gulp.series('sass');
     gulp.watch('./public/*.html').on('change', browserSync.reload);
 }));
 
@@ -68,7 +68,7 @@ gulp.task('server', gulp.series('sass', function() {
 //gulp.watch()
 gulp.task('watch', () => {
     gulp.watch('./dev/*.html', gulp.series('htmlmin'));
-    gulp.watch('./dev/scss/*.scss', gulp.series('sass'));
+    gulp.watch('./dev/scss/main.scss', gulp.series('sass'));
     gulp.watch('./dev/styles/*.css', gulp.series('css'));
 })
 
