@@ -10,7 +10,7 @@
 }
 
 @mixin height-pages-100 {
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
 }
 
@@ -19,7 +19,7 @@
     width: 100%;
 }
 
-@mixin height-pages-200 {
-    height: 200vh;
+@mixin height-pages-150 {
+    min-height: 150vh;
     width: 100%;
 }

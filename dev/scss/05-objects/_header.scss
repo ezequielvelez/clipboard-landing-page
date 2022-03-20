@@ -1,1 +1,8 @@
 //Objects header
+.o-header {
+    background-color: hsl(240, 100%, 50%);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    grid-row: 1 / 2;
+}

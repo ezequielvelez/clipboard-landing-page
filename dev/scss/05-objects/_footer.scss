@@ -1,1 +1,26 @@
 //Objects footer
+.o-footer {
+    background-color: green;
+}
+
+.o-footer,
+.o-header,
+.o-download,
+.o-logos,
+.o-workflow,
+.o-computer {
+    height: 100vh;
+}
+
+.o-header {
+    margin-bottom: 0;
+}
+
+main {
+    grid-row: 2 / 3;
+    margin-top: 0;
+}
+
+footer {
+    grid-row: 3 / 4;
+}
