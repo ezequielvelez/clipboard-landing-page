@@ -1,11 +1,8 @@
 //Objectos computer
-
-
-main {
-    background-color: black;
-    grid-row: 2 / 3;
-}
-
 .o-computer {
-    height: 100vh;
+    @include height-pages-150;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
 }
