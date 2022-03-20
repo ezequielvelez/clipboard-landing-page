@@ -1,7 +1,5 @@
 //Objects header
 .o-header {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
+    @include height-pages-100;
+    @extend %template__sections;
 }

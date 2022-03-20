@@ -1,4 +1,5 @@
 //Objects downloads
 .o-downloads {
     @include height-pages-100;
+    @extend %template__sections;
 }

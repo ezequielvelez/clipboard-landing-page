@@ -1,4 +1,5 @@
 //Devices section
 .o-devices {
     @include height-pages-50;
+    @extend %template__sections;
 }
