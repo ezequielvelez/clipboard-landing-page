@@ -1,5 +1,21 @@
 //Objects downloads
 .o-downloads {
     @include height-pages-100;
-    @extend %template__sections;
+}
+
+.o-downloads{
+    @include height-pages-80;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    &__buttons {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    &__content {
+        margin-bottom: 2em;
+    }
 }

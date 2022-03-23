@@ -5,20 +5,21 @@
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    &__icon {
+        margin-bottom: 3em;
+    }
+    &__content {
+        margin-bottom: 2em;
+    }
+    &__buttons {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
-.o-header__icon {
-    margin-bottom: 3em;
-}
 
-.o-header__content {
-    margin-bottom: 2em;
-}
 
-.o-header__buttons {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-}
+
 

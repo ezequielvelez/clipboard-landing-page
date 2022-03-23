@@ -3,6 +3,8 @@
     grid-template-columns: repeat(12, 8.333333333%);
     &__row {
         grid-column: 1 / 13;
+        align-content: center;
+        justify-content: center;
     }
 }
 
@@ -12,4 +14,11 @@
     justify-content: center;
     align-items: center;
 }
+
+
+.o-container__col-12 {
+    grid-column: 1 / 13;
+    gap: 0;
+}
+
 
