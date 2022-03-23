@@ -10,14 +10,28 @@ html {
 }
 
 body {
-    padding: 0;
-    text-align: center;
-    height: 100%;
-}
-
-
-header {
     margin: 0;
-    padding: 0;
+    padding: 0 2em;
+    text-align: center;
+    font-family: $s-font-family;
+    font-size: $s-font-size-body;
+    font-weight: $s-font-weights-normal;
 }
 
+
+
+h1,
+h2,
+h3,
+a {
+    font-weight: $s-font-weights-bold;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+
+a {
+    text-decoration: none;
+}

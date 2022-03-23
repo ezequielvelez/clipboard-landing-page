@@ -33,19 +33,23 @@
   <!--CSS-->
   <link rel="stylesheet" href="styles/main.css">
 </head>
-<body class="o-template"> 
-  <header class="o-template__item o-header">
-    <img src="./assets/images/logo.svg" alt="logo">
-    <h1>A history of everything you copy</h1>
-    <p>
-      Clipboard allows you to track and organize everything you 
-      copy. Instantly access your clipboard on all your devices.
-    </p>
-    <a href="#">Download for iOS</a>
-    <a href="#">Download for Mac</a>
+<body class="o-container"> 
+  <header class="o-container__row o-header">
+    <img src="./assets/images/logo.svg" alt="logo" class="o-header__icon c-icon">
+    <div class="o-header__content">
+      <h1>A history of everything you copy</h1>
+      <p>
+        Clipboard allows you to track and organize everything you 
+        copy. Instantly access your clipboard on all your devices.
+      </p>
+    </div>
+    <div class="o-header__buttons">
+      <a href="#">Download for iOS</a>
+      <a href="#">Download for Mac</a>
+    </div>
   </header>
-  <main class="o-template o-template__item o-template--gtr--5-1fr">
-    <section class="o-template__item o-computer">
+  <main class="o-container o-container__row">
+    <section class="o-container__row o-computer">
       <h2>Keep track of your snippets</h2>
       <p>
         Clipboard instantly stores any item you copy in the cloud, 
@@ -66,14 +70,14 @@
         Retrieve any snippets from the first moment you started using the app.
       </p>
     </section>
-    <section class="o-template__item  o-devices">
+    <section class="o-container__row  o-devices">
       <h2>Access Clipboard anywhere</h2>
       <p>
         Whether you’re on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks.
       </p>
       <img src="./assets/images/image-devices.png" alt="devices">
     </section>
-    <section class="o-template__item  o-workflow">
+    <section class="o-container__row  o-workflow">
       <h2>Supercharge your workflow</h2>
       <p>
         We’ve got the tools to boost your productivity.
@@ -101,7 +105,7 @@
       <img src="./assets/images/logo-hp.png" alt="Hp image">
       <img src="./assets/images/logo-vector-graphics.png" alt="Vector Graphics image">
     </div>
-    <section class="o-template__item  o-downloads">
+    <section class="o-container__row  o-downloads">
       <h2>Clipboard for iOS and Mac OS</h2>
       <p>
         Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you’re ready to start adding to your clipboard.
@@ -110,7 +114,7 @@
       <a href="#">Download for Mac</a>
     </section>
   </main>
-  <footer class="o-template o-template__item  o-footer">
+  <footer class="o-container o-container__row  o-footer">
     <img src="./assets/images/logo.svg" alt="logo">
     <ul>
       <li>FAQs</li>

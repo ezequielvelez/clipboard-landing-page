@@ -1,5 +1,24 @@
 //Objects header
 .o-header {
     @include height-pages-100;
-    @extend %template__sections;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
 }
+
+.o-header__icon {
+    margin-bottom: 3em;
+}
+
+.o-header__content {
+    margin-bottom: 2em;
+}
+
+.o-header__buttons {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+

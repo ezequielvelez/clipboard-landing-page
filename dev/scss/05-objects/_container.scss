@@ -1,8 +1,7 @@
-.o-template {
+.o-container {
     display: grid;
     grid-template-columns: repeat(12, 8.333333333%);
-    &__item {
-        display: grid;
+    &__row {
         grid-column: 1 / 13;
     }
 }
