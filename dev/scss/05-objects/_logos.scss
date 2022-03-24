@@ -2,7 +2,7 @@
 .o-logos {
     @include height-pages-100;
     &__items {
-        margin-bottom: map-get($map: $spaced, $key: 'bg');
+        @include mb-bg;
     }
 }
 

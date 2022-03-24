@@ -2,6 +2,12 @@
     @include height-pages-150;
     &__heading,
     &__features {
-        margin-bottom: map-get($map: $spaced, $key: 'bg');
+        @include mb-bg;
+    }
+    &__image--mb--bg {
+        @include mb-bg;
+    }
+    &__title--mb--sm {
+        @include mb-sm;
     }
 }

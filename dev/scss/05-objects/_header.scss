@@ -3,10 +3,13 @@
     @include height-pages-100;
     box-sizing: content-box;
     &__logo {
-        margin-bottom: map-get($map: $spaced, $key: 'bg');
+        @include mb-bg;
     }
     &__heading {
-        margin-bottom: map-get($map: $spaced, $key: 'md');
+        @include mb-md;
+    }
+    &__title {
+        @include mb-sm;
     }
 }
 

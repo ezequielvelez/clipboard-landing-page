@@ -2,7 +2,10 @@
 .o-downloads {
     @include height-pages-100;
     &__heading {
-        margin-bottom: map-get($map: $spaced, $key: 'md');
+        @include mb-md;
+    }
+    &__title {
+        @include mb-sm;
     }
 }
 

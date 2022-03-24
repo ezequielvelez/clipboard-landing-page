@@ -2,9 +2,18 @@
 .o-computer {
     @include height-pages-150;
     &__heading {
-        margin-bottom: map-get($map: $spaced, $key: 'md');
+        @include mb-md;
     }
     &__image {
-        margin-bottom: map-get($map: $spaced, $key: 'md');
+        @include mb-md;
+    }
+    &__title {
+        @include mb-sm;
+    }
+    &__title--mb--sm {
+        @include mb-sm;
+    }
+    &__paragraph--mb--bg {
+        @include mb-bg;
     }
 }

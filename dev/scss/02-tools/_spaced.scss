@@ -1,0 +1,11 @@
+@mixin mb-sm {
+    margin-bottom: map-get($map: $spaced, $key: 'sm');
+}
+
+@mixin mb-md {
+    margin-bottom: map-get($map: $spaced, $key: 'md');
+}
+
+@mixin mb-bg {
+    margin-bottom: map-get($map: $spaced, $key: 'bg');
+}
