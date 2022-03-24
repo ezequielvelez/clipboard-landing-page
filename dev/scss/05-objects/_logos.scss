@@ -1,5 +1,8 @@
 //Objects logos
 .o-logos {
     @include height-pages-100;
-    @extend %template__sections;
+    &__items {
+        margin-bottom: map-get($map: $spaced, $key: 'bg');
+    }
 }
+

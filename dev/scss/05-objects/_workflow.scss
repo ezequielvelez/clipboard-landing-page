@@ -1,3 +1,7 @@
 .o-workflow {
     @include height-pages-150;
+    &__heading,
+    &__features {
+        margin-bottom: map-get($map: $spaced, $key: 'bg');
+    }
 }

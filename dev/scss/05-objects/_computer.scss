@@ -1,5 +1,10 @@
 //Objectos computer
 .o-computer {
     @include height-pages-150;
-    
+    &__heading {
+        margin-bottom: map-get($map: $spaced, $key: 'md');
+    }
+    &__image {
+        margin-bottom: map-get($map: $spaced, $key: 'md');
+    }
 }

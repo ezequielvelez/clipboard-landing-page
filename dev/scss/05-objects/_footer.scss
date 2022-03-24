@@ -1,5 +1,13 @@
 //Objects footer
-
+.o-footer {
+    @include height-pages-80;
+    &__logo {
+        margin-bottom: map-get($map: $spaced, $key: 'md');
+    }
+    &__list {
+        margin-bottom: map-get($map: $spaced, $key: 'md');
+    }
+}
 
 
 

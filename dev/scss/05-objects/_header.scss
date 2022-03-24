@@ -1,7 +1,15 @@
 //Objects header
 .o-header {
     @include height-pages-100;
+    &__logo {
+        margin-bottom: map-get($map: $spaced, $key: 'bg');
+    }
+    &__heading {
+        margin-bottom: map-get($map: $spaced, $key: 'md');
+    }
 }
+
+
 
 
 

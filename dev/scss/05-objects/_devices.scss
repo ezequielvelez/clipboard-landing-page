@@ -1,4 +1,7 @@
 //Devices section
 .o-devices {
     @include height-pages-50;
+    &__heading {
+        margin-bottom: map-get($map: $spaced, $key: 'md');
+    }
 }
