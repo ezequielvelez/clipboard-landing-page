@@ -1,6 +1,7 @@
 //Objects footer
 .o-footer {
     box-sizing: content-box;
+    background-color: rgb(235, 235, 235);
     @include height-pages-80;
     &__logo {
         @include mb-md;
