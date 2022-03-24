@@ -1,6 +1,7 @@
 //Objects header
 .o-header {
     @include height-pages-100;
+    box-sizing: content-box;
     &__logo {
         margin-bottom: map-get($map: $spaced, $key: 'bg');
     }

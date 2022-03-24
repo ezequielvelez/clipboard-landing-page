@@ -1,6 +1,8 @@
 //Objects footer
 .o-footer {
+    box-sizing: content-box;
     @include height-pages-80;
+    background-color: gray;
     &__logo {
         margin-bottom: map-get($map: $spaced, $key: 'md');
     }
@@ -8,6 +10,7 @@
         margin-bottom: map-get($map: $spaced, $key: 'md');
     }
 }
+
 
 
 

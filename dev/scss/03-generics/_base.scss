@@ -11,14 +11,22 @@ html {
 
 body {
     margin: 0;
-    padding: 0 2em;
+    padding: 0;
     text-align: center;
     font-family: $s-font-family;
     font-size: $s-font-size-body;
     font-weight: $s-font-weights-normal;
 }
 
+header,
+main,
+footer {
+    padding: 0 2em;
+}
 
+section {
+    background-color: black;
+}
 
 h1,
 h2,
