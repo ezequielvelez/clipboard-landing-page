@@ -1,9 +1,5 @@
 .o-workflow {
     @include height-pages-200;
-    &__heading,
-    &__features {
-        @include mb-bg;
-    }
     &__image--mb--bg {
         @include mb-bg;
     }

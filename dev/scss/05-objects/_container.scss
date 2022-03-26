@@ -1,11 +1,8 @@
 .o-container {
     display: grid;
     grid-template-columns: repeat(12, 8.333333333%);
-    &__row {
-        grid-column: 1 / 13;
-        align-content: center;
-        justify-content: center;
-    }
+    align-content: center;
+    justify-content: center;
     &__row--ac--sa {
         align-content: space-around;
     }
