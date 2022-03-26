@@ -19,8 +19,12 @@ body {
 }
 
 header,
-main,
 footer {
+    padding: 0 2em;
+}
+
+main > section,
+main > div {
     padding: 0 2em;
 }
 

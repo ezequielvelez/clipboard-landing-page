@@ -1,6 +1,10 @@
 //Objects downloads
 .o-downloads {
     @include height-pages-100;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
     &__heading {
         @include mb-md;
     }
@@ -8,11 +12,13 @@
         @include mb-sm;
     }
     &__buttons {
+        width: 100%;
         display: flex;
         flex-flow: column nowrap;
         justify-content: center;
         align-items: center;
         @include mb-sm;
+        @include media-flex(map-get($map: $s-breakpoints-width, $key: 'sm'));
     }
 }
 

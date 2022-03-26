@@ -7,6 +7,7 @@
 
 @import './02-tools/height';
 @import './02-tools/spaced';
+@import './02-tools/mediaqueries';
 
 //03 - Generics
 @import './03-generics/normalize';
@@ -34,3 +35,5 @@
 @import './06-components/logo';
 @import './06-components/buttons';
 
+//07-Mediaqueries
+@import './07-mediaqueries/mediaqueries.scss';

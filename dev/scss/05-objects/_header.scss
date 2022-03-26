@@ -1,6 +1,10 @@
 //Objects header
 .o-header {
     @include height-pages-100;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
     box-sizing: content-box;
     &__logo {
         @include mb-bg;
@@ -12,6 +16,7 @@
         @include mb-sm;
     }
     &__buttons {
+        width: 100%;
         display: flex;
         flex-flow: column nowrap;
         justify-content: center;
