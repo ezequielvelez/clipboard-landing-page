@@ -67,105 +67,283 @@ body {
 
 /******************small********************/
 
-//sm-11-col-1
+//sm-12-col-1
+.o-container__col-sm-12-col-1 {
+    @include media-grid($o-sm, 1, 12);
+}
+
+//sm-11-col-2
 .o-container__col-sm-11-col-1 {
     @include media-grid($o-sm, 1, 11);
 }
 
-//sm-10-col-1
+.o-container__col-sm-11-col-2 {
+    @include media-grid($o-sm, 2, 11);
+}
+
+//sm-10-col-3
 .o-container__col-sm-10-col-1 {
     @include media-grid($o-sm, 1, 10);
 }
 
-//sm-09-col-1
+.o-container__col-sm-10-col-2 {
+    @include media-grid($o-sm, 2, 10);
+}
+
+.o-container__col-sm-10-col-3 {
+    @include media-grid($o-sm, 3, 10);
+}
+
+//sm-09-col-3
 .o-container__col-sm-9-col-1 {
     @include media-grid($o-sm, 1, 9);
 }
 
-//sm-08-col-1
+.o-container__col-sm-9-col-2 {
+    @include media-grid($o-sm, 2, 9);
+}
+
+.o-container__col-sm-9-col-3 {
+    @include media-grid($o-sm, 3, 9);
+}
+
+.o-container__col-sm-9-col-4 {
+    @include media-grid($o-sm, 4, 9);
+}
+
+//sm-08-cols-5
 .o-container__col-sm-8-col-1 {
     @include media-grid($o-sm, 1, 8);
 }
 
-//sm-07-col-1
+.o-container__col-sm-8-col-2 {
+    @include media-grid($o-sm, 2, 8);
+}
+
+.o-container__col-sm-8-col-3 {
+    @include media-grid($o-sm, 3, 8);
+}
+
+.o-container__col-sm-8-col-4 {
+    @include media-grid($o-sm, 4, 8);
+}
+
+.o-container__col-sm-8-col-5 {
+    @include media-grid($o-sm, 5, 8);
+}
+
+//sm-07-cols-6
 .o-container__col-sm-7-col-1 {
     @include media-grid($o-sm, 1, 7);
 }
 
-//sm-06-cols-2
+.o-container__col-sm-7-col-2 {
+    @include media-grid($o-sm, 2, 7);
+}
+
+.o-container__col-sm-7-col-3 {
+    @include media-grid($o-sm, 3, 7);
+}
+
+.o-container__col-sm-7-col-4 {
+    @include media-grid($o-sm, 4, 7);
+}
+
+.o-container__col-sm-7-col-5 {
+    @include media-grid($o-sm, 5, 7);
+}
+
+.o-container__col-sm-7-col-6 {
+    @include media-grid($o-sm, 6, 7);
+}
+
+//sm-06-cols-7
 .o-container__col-sm-6-col-1 {
     @include media-grid($o-sm, 1, 6);
 }
 
 .o-container__col-sm-6-col-2 {
+    @include media-grid($o-sm, 2, 6);
+}
+
+.o-container__col-sm-6-col-3 {
+    @include media-grid($o-sm, 3, 6);
+}
+
+.o-container__col-sm-6-col-4 {
+    @include media-grid($o-sm, 4, 6);
+}
+
+.o-container__col-sm-6-col-5 {
+    @include media-grid($o-sm, 5, 6);
+}
+
+.o-container__col-sm-6-col-6 {
+    @include media-grid($o-sm, 6, 6);
+}
+
+.o-container__col-sm-6-col-7 {
     @include media-grid($o-sm, 7, 6);
 }
 
-//sm-05-cols-2
+
+//sm-05-cols-8
 .o-container__col-sm-5-col-1 {
     @include media-grid($o-sm, 1, 5);
 }
 
 .o-container__col-sm-5-col-2 {
+    @include media-grid($o-sm, 2, 5);
+}
+
+.o-container__col-sm-5-col-3 {
+    @include media-grid($o-sm, 3, 5);
+}
+
+.o-container__col-sm-5-col-4 {
+    @include media-grid($o-sm, 4, 5);
+}
+
+.o-container__col-sm-5-col-5 {
+    @include media-grid($o-sm, 5, 5);
+}
+
+.o-container__col-sm-5-col-6 {
     @include media-grid($o-sm, 6, 5);
 }
 
-//sm-04-cols-3
+.o-container__col-sm-5-col-7 {
+    @include media-grid($o-sm, 7, 5);
+}
+
+.o-container__col-sm-5-col-8 {
+    @include media-grid($o-sm, 8, 5);
+}
+
+//sm-04-cols-9
 .o-container__col-sm-4-col-1 {
     @include media-grid($o-sm, 1, 4);
 }
 
 .o-container__col-sm-4-col-2 {
-    @include media-grid($o-sm, 5, 4);
+    @include media-grid($o-sm, 2, 4);
 }
 
 .o-container__col-sm-4-col-3 {
+    @include media-grid($o-sm, 3, 4);
+}
+
+.o-container__col-sm-4-col-4 {
+    @include media-grid($o-sm, 4, 4);
+}
+
+.o-container__col-sm-4-col-5 {
+    @include media-grid($o-sm, 5, 4);
+}
+
+.o-container__col-sm-4-col-6 {
+    @include media-grid($o-sm, 6, 4);
+}
+
+.o-container__col-sm-4-col-7 {
+    @include media-grid($o-sm, 7, 4);
+}
+
+.o-container__col-sm-4-col-8 {
+    @include media-grid($o-sm, 8, 4);
+}
+
+.o-container__col-sm-4-col-9 {
     @include media-grid($o-sm, 9, 4);
 }
 
-//sm-03-cols-4
+//sm-03-cols-10
 .o-container__col-sm-3-col-1 {
     @include media-grid($o-sm, 1, 3);
 }
 
 .o-container__col-sm-3-col-2 {
-    @include media-grid($o-sm, 4, 3);
+    @include media-grid($o-sm, 2, 3);
 }
 
 .o-container__col-sm-3-col-3 {
-    @include media-grid($o-sm, 7, 3);
+    @include media-grid($o-sm, 3, 3);
 }
 
 .o-container__col-sm-3-col-4 {
+    @include media-grid($o-sm, 4, 3);
+}
+
+.o-container__col-sm-3-col-5 {
+    @include media-grid($o-sm, 5, 3);
+}
+
+.o-container__col-sm-3-col-6 {
+    @include media-grid($o-sm, 6, 3);
+}
+
+.o-container__col-sm-3-col-7 {
+    @include media-grid($o-sm, 7, 3);
+}
+
+.o-container__col-sm-3-col-8 {
+    @include media-grid($o-sm, 8, 3);
+}
+
+.o-container__col-sm-3-col-9 {
+    @include media-grid($o-sm, 9, 3);
+}
+
+.o-container__col-sm-3-col-10 {
     @include media-grid($o-sm, 10, 3);
 }
 
-//sm-02-cols-6
+//sm-02-cols-11
 .o-container__col-sm-2-col-1 {
     @include media-grid($o-sm, 1, 2);
 }
 
 .o-container__col-sm-2-col-2 {
-    @include media-grid($o-sm, 3, 2);
+    @include media-grid($o-sm, 2, 2);
 }
 
 .o-container__col-sm-2-col-3 {
-    @include media-grid($o-sm, 5, 2);
+    @include media-grid($o-sm, 3, 2);
 }
 
 .o-container__col-sm-2-col-4 {
-    @include media-grid($o-sm, 7, 2);
+    @include media-grid($o-sm, 4, 2);
 }
 
 .o-container__col-sm-2-col-5 {
+    @include media-grid($o-sm, 5, 2);
+}
+
+.o-container__col-sm-2-col-6 {
+    @include media-grid($o-sm, 6, 2);
+}
+
+.o-container__col-sm-2-col-6 {
+    @include media-grid($o-sm, 7, 2);
+}
+
+.o-container__col-sm-2-col-6 {
+    @include media-grid($o-sm, 8, 2);
+}
+
+.o-container__col-sm-2-col-6 {
     @include media-grid($o-sm, 9, 2);
+}
+
+.o-container__col-sm-2-col-6 {
+    @include media-grid($o-sm, 10, 2);
 }
 
 .o-container__col-sm-2-col-6 {
     @include media-grid($o-sm, 11, 2);
 }
 
-//sm-01-cols-11
+//sm-01-cols-12
 .o-container__col-sm-1-col-1 {
     @include media-grid($o-sm, 1, 1);
 }
@@ -210,36 +388,104 @@ body {
     @include media-grid($o-sm, 11, 1);
 }
 
+.o-container__col-sm-1-col-12 {
+    @include media-grid($o-sm, 12, 1);
+}
+
 
 
 /******************medium********************/
+//md-12-col-1
+.o-container__col-md-12-col-1 {
+    @include media-grid($o-sm, 1, 12);
+}
 
-//md-11-col-1
+//md-11-cols-2
 .o-container__col-md-11-col-1 {
     @include media-grid($o-md, 1, 11);
 }
 
-//md-10-col-1
+.o-container__col-md-11-col-2 {
+    @include media-grid($o-sm, 2, 11);
+}
+
+//md-10-cols-3
 .o-container__col-md-10-col-1 {
     @include media-grid($o-md, 1, 10);
 }
 
-//md-09-col-1
+.o-container__col-md-10-col-2 {
+    @include media-grid($o-md, 2, 10);
+}
+
+.o-container__col-md-10-col-3 {
+    @include media-grid($o-md, 3, 10);
+}
+
+//md-09-cols-4
 .o-container__col-md-9-col-1 {
     @include media-grid($o-md, 1, 9);
 }
 
-//md-08-col-1
+.o-container__col-md-9-col-2 {
+    @include media-grid($o-md, 2, 9);
+}
+
+.o-container__col-md-9-col-3 {
+    @include media-grid($o-md, 3, 9);
+}
+
+.o-container__col-md-9-col-4 {
+    @include media-grid($o-md, 4, 9);
+}
+
+//md-08-cols-5
 .o-container__col-md-8-col-1 {
     @include media-grid($o-md, 1, 8);
 }
 
-//md-07-col-1
+.o-container__col-md-8-col-2 {
+    @include media-grid($o-md, 2, 8);
+}
+
+.o-container__col-md-8-col-3 {
+    @include media-grid($o-md, 3, 8);
+}
+
+.o-container__col-md-8-col-4 {
+    @include media-grid($o-md, 4, 8);
+}
+
+.o-container__col-md-8-col-5 {
+    @include media-grid($o-md, 5, 8);
+}
+
+//md-07-col-6
 .o-container__col-md-7-col-1 {
     @include media-grid($o-md, 1, 7);
 }
 
-//md-06-cols-2
+.o-container__col-md-7-col-2 {
+    @include media-grid($o-md, 2, 7);
+}
+
+.o-container__col-md-7-col-3 {
+    @include media-grid($o-md, 3, 7);
+}
+
+.o-container__col-md-7-col-4 {
+    @include media-grid($o-md, 4, 7);
+}
+
+.o-container__col-md-7-col-5 {
+    @include media-grid($o-md, 5, 7);
+}
+
+.o-container__col-md-7-col-6 {
+    @include media-grid($o-md, 6, 7);
+}
+
+//md-06-cols-7
 .o-container__col-md-6-col-1 {
     @include media-grid($o-md, 1, 6);
 }
@@ -248,71 +494,185 @@ body {
     @include media-grid($o-md, 7, 6);
 }
 
-//md-05-cols-2
+.o-container__col-md-6-col-3 {
+    @include media-grid($o-md, 3, 6);
+}
+
+.o-container__col-md-6-col-4 {
+    @include media-grid($o-md, 4, 6);
+}
+
+.o-container__col-md-6-col-5 {
+    @include media-grid($o-md, 5, 6);
+}
+
+.o-container__col-md-6-col-6 {
+    @include media-grid($o-md, 6, 6);
+}
+
+.o-container__col-md-6-col-7 {
+    @include media-grid($o-md, 7, 6);
+}
+
+//md-05-cols-8
 .o-container__col-md-5-col-1 {
     @include media-grid($o-md, 1, 5);
 }
 
 .o-container__col-md-5-col-2 {
+    @include media-grid($o-md, 2, 5);
+}
+
+.o-container__col-md-5-col-3 {
+    @include media-grid($o-md, 3, 5);
+}
+
+.o-container__col-md-5-col-4 {
+    @include media-grid($o-md, 4, 5);
+}
+
+.o-container__col-md-5-col-5 {
+    @include media-grid($o-md, 5, 5);
+}
+
+.o-container__col-md-5-col-6 {
     @include media-grid($o-md, 6, 5);
 }
 
-//md-04-cols-3
+.o-container__col-md-5-col-7 {
+    @include media-grid($o-md, 7, 5);
+}
+
+.o-container__col-md-5-col-8 {
+    @include media-grid($o-md, 8, 5);
+}
+
+//md-04-cols-9
 .o-container__col-md-4-col-1 {
     @include media-grid($o-md, 1, 4);
 }
 
 .o-container__col-md-4-col-2 {
-    @include media-grid($o-md, 5, 4);
+    @include media-grid($o-md, 2, 4);
 }
 
 .o-container__col-md-4-col-3 {
+    @include media-grid($o-md, 3, 4);
+}
+
+.o-container__col-md-4-col-4 {
+    @include media-grid($o-md, 4, 4);
+}
+
+.o-container__col-md-4-col-5 {
+    @include media-grid($o-md, 5, 4);
+}
+
+.o-container__col-md-4-col-6 {
+    @include media-grid($o-md, 6, 4);
+}
+
+.o-container__col-md-4-col-7 {
+    @include media-grid($o-md, 7, 4);
+}
+
+.o-container__col-md-4-col-8 {
+    @include media-grid($o-md, 8, 4);
+}
+
+.o-container__col-md-4-col-9 {
     @include media-grid($o-md, 9, 4);
 }
 
-//md-03-cols-4
+//md-03-cols-10
 .o-container__col-md-3-col-1 {
     @include media-grid($o-md, 1, 3);
 }
 
 .o-container__col-md-3-col-2 {
-    @include media-grid($o-md, 4, 3);
+    @include media-grid($o-md, 2, 3);
 }
 
 .o-container__col-md-3-col-3 {
-    @include media-grid($o-md, 7, 3);
+    @include media-grid($o-md, 3, 3);
 }
 
 .o-container__col-md-3-col-4 {
+    @include media-grid($o-md, 4, 3);
+}
+
+.o-container__col-md-3-col-5 {
+    @include media-grid($o-md, 5, 3);
+}
+
+.o-container__col-md-3-col-6 {
+    @include media-grid($o-md, 6, 3);
+}
+
+.o-container__col-md-3-col-7 {
+    @include media-grid($o-md, 7, 3);
+}
+
+.o-container__col-md-3-col-8 {
+    @include media-grid($o-md, 8, 3);
+}
+
+.o-container__col-md-3-col-9 {
+    @include media-grid($o-md, 9, 3);
+}
+
+.o-container__col-md-3-col-10 {
     @include media-grid($o-md, 10, 3);
 }
 
-//md-02-cols-6
+
+//md-02-cols-11
 .o-container__col-md-2-col-1 {
     @include media-grid($o-md, 1, 2);
 }
 
 .o-container__col-md-2-col-2 {
-    @include media-grid($o-md, 3, 2);
+    @include media-grid($o-md, 2, 2);
 }
 
 .o-container__col-md-2-col-3 {
-    @include media-grid($o-md, 5, 2);
+    @include media-grid($o-md, 3, 2);
 }
 
 .o-container__col-md-2-col-4 {
-    @include media-grid($o-md, 7, 2);
+    @include media-grid($o-md, 4, 2);
 }
 
 .o-container__col-md-2-col-5 {
+    @include media-grid($o-md, 5, 2);
+}
+
+.o-container__col-md-2-col-6 {
+    @include media-grid($o-md, 6, 2);
+}
+
+.o-container__col-md-2-col-6 {
+    @include media-grid($o-md, 7, 2);
+}
+
+.o-container__col-md-2-col-6 {
+    @include media-grid($o-md, 8, 2);
+}
+
+.o-container__col-md-2-col-6 {
     @include media-grid($o-md, 9, 2);
+}
+
+.o-container__col-md-2-col-6 {
+    @include media-grid($o-md, 10, 2);
 }
 
 .o-container__col-md-2-col-6 {
     @include media-grid($o-md, 11, 2);
 }
 
-//md-01-cols-11
+
+//md-01-cols-12
 .o-container__col-md-1-col-1 {
     @include media-grid($o-sm, 1, 1);
 }
@@ -357,107 +717,290 @@ body {
     @include media-grid($o-md, 11, 1);
 }
 
+.o-container__col-md-1-col-12 {
+    @include media-grid($o-md, 12, 1);
+}
 
 
 /******************large********************/
 
-//lg-11-col-1
+//lg-12-col-1
+.o-container__col-lg-12-col-1 {
+    @include media-grid($o-sm, 1, 12);
+}
+
+//lg-11-cols-2
 .o-container__col-lg-11-col-1 {
     @include media-grid($o-lg, 1, 11);
 }
 
-//lg-10-col-1
+.o-container__col-lg-11-col-2 {
+    @include media-grid($o-sm, 2, 11);
+}
+
+//lg-10-cols-3
 .o-container__col-lg-10-col-1 {
     @include media-grid($o-lg, 1, 10);
 }
 
-//lg-09-col-1
+.o-container__col-lg-10-col-2 {
+    @include media-grid($o-lg, 2, 10);
+}
+
+.o-container__col-lg-10-col-3 {
+    @include media-grid($o-lg, 3, 10);
+}
+
+//lg-09-cols-4
 .o-container__col-lg-9-col-1 {
     @include media-grid($o-lg, 1, 9);
 }
 
-//lg-08-col-1
+.o-container__col-lg-9-col-2 {
+    @include media-grid($o-lg, 2, 9);
+}
+
+.o-container__col-lg-9-col-3 {
+    @include media-grid($o-lg, 3, 9);
+}
+
+.o-container__col-lg-9-col-4 {
+    @include media-grid($o-lg, 4, 9);
+}
+
+
+//lg-08-cols-5
 .o-container__col-lg-8-col-1 {
     @include media-grid($o-lg, 1, 8);
 }
 
-//lg-07-col-1
+.o-container__col-lg-8-col-2 {
+    @include media-grid($o-lg, 2, 8);
+}
+
+.o-container__col-lg-8-col-3 {
+    @include media-grid($o-lg, 3, 8);
+}
+
+.o-container__col-lg-8-col-4 {
+    @include media-grid($o-lg, 4, 8);
+}
+
+.o-container__col-lg-8-col-5 {
+    @include media-grid($o-lg, 5, 8);
+}
+
+//lg-07-cols-6
 .o-container__col-lg-7-col-1 {
     @include media-grid($o-lg, 1, 7);
 }
 
-//lg-06-cols-2
+.o-container__col-lg-7-col-2 {
+    @include media-grid($o-lg, 2, 7);
+}
+
+.o-container__col-lg-7-col-3 {
+    @include media-grid($o-lg, 3, 7);
+}
+
+.o-container__col-lg-7-col-4 {
+    @include media-grid($o-lg, 4, 7);
+}
+
+.o-container__col-lg-7-col-5 {
+    @include media-grid($o-lg, 5, 7);
+}
+
+.o-container__col-lg-7-col-6 {
+    @include media-grid($o-lg, 6, 7);
+}
+
+//lg-06-cols-7
 .o-container__col-lg-6-col-1 {
     @include media-grid($o-lg, 1, 6);
 }
 
 .o-container__col-lg-6-col-2 {
-    @include media-grid($o-lg, 7, 6);
+    @include media-grid($o-lg, 2, 6);
 }
 
-//lg-05-cols-2
+.o-container__col-lg-6-col-3 {
+    @include media-grid($o-sm, 3, 6);
+}
+
+.o-container__col-lg-6-col-4 {
+    @include media-grid($o-sm, 4, 6);
+}
+
+.o-container__col-lg-6-col-5 {
+    @include media-grid($o-sm, 5, 6);
+}
+
+.o-container__col-lg-6-col-6 {
+    @include media-grid($o-sm, 6, 6);
+}
+
+.o-container__col-lg-6-col-7 {
+    @include media-grid($o-sm, 7, 6);
+}
+
+//lg-05-cols-8
 .o-container__col-lg-5-col-1 {
     @include media-grid($o-lg, 1, 5);
 }
 
 .o-container__col-lg-5-col-2 {
+    @include media-grid($o-lg, 2, 5);
+}
+
+.o-container__col-lg-5-col-3 {
+    @include media-grid($o-lg, 3, 5);
+}
+
+.o-container__col-lg-5-col-4 {
+    @include media-grid($o-lg, 4, 5);
+}
+
+.o-container__col-lg-5-col-5 {
+    @include media-grid($o-lg, 5, 5);
+}
+
+.o-container__col-lg-5-col-6 {
     @include media-grid($o-lg, 6, 5);
 }
 
-//lg-04-cols-3
+.o-container__col-lg-5-col-7 {
+    @include media-grid($o-lg, 7, 5);
+}
+
+.o-container__col-lg-5-col-8 {
+    @include media-grid($o-lg, 8, 5);
+}
+
+//lg-04-cols-9
 .o-container__col-lg-4-col-1 {
     @include media-grid($o-lg, 1, 4);
 }
 
 .o-container__col-lg-4-col-2 {
-    @include media-grid($o-lg, 5, 4);
+    @include media-grid($o-lg, 2, 4);
 }
 
 .o-container__col-lg-4-col-3 {
+    @include media-grid($o-lg, 3, 4);
+}
+
+.o-container__col-lg-4-col-4 {
+    @include media-grid($o-lg, 4, 4);
+}
+
+.o-container__col-lg-4-col-5 {
+    @include media-grid($o-lg, 5, 4);
+}
+
+.o-container__col-lg-4-col-6 {
+    @include media-grid($o-lg, 6, 4);
+}
+
+.o-container__col-lg-4-col-7 {
+    @include media-grid($o-lg, 7, 4);
+}
+
+.o-container__col-lg-4-col-8 {
+    @include media-grid($o-lg, 8, 4);
+}
+
+.o-container__col-lg-4-col-9 {
     @include media-grid($o-lg, 9, 4);
 }
 
-//lg-03-cols-4
-.o-container__col-lg-3-col-1 {
+//lg-03-cols-10
+.o-container__col-sm-3-col-1 {
     @include media-grid($o-lg, 1, 3);
 }
 
-.o-container__col-lg-3-col-2 {
+.o-container__col-sm-3-col-2 {
+    @include media-grid($o-lg, 2, 3);
+}
+
+.o-container__col-sm-3-col-3 {
+    @include media-grid($o-lg, 3, 3);
+}
+
+.o-container__col-sm-3-col-4 {
     @include media-grid($o-lg, 4, 3);
 }
 
-.o-container__col-lg-3-col-3 {
+.o-container__col-sm-3-col-5 {
+    @include media-grid($o-lg, 5, 3);
+}
+
+.o-container__col-sm-3-col-6 {
+    @include media-grid($o-lg, 6, 3);
+}
+
+.o-container__col-sm-3-col-7 {
     @include media-grid($o-lg, 7, 3);
 }
 
-.o-container__col-lg-3-col-4 {
+.o-container__col-sm-3-col-8 {
+    @include media-grid($o-lg, 8, 3);
+}
+
+.o-container__col-sm-3-col-9 {
+    @include media-grid($o-lg, 9, 3);
+}
+
+.o-container__col-sm-3-col-10 {
     @include media-grid($o-lg, 10, 3);
 }
 
-//lg-02-cols-6
+
+//lg-02-cols-11
 .o-container__col-lg-2-col-1 {
     @include media-grid($o-lg, 1, 2);
 }
 
 .o-container__col-lg-2-col-2 {
-    @include media-grid($o-lg, 3, 2);
+    @include media-grid($o-lg, 2, 2);
 }
 
 .o-container__col-lg-2-col-3 {
-    @include media-grid($o-lg, 5, 2);
+    @include media-grid($o-lg, 3, 2);
 }
 
 .o-container__col-lg-2-col-4 {
-    @include media-grid($o-lg, 7, 2);
+    @include media-grid($o-lg, 4, 2);
 }
 
 .o-container__col-lg-2-col-5 {
+    @include media-grid($o-lg, 5, 2);
+}
+
+.o-container__col-lg-2-col-6 {
+    @include media-grid($o-lg, 6, 2);
+}
+
+.o-container__col-lg-2-col-6 {
+    @include media-grid($o-lg, 7, 2);
+}
+
+.o-container__col-lg-2-col-6 {
+    @include media-grid($o-lg, 8, 2);
+}
+
+.o-container__col-lg-2-col-6 {
     @include media-grid($o-lg, 9, 2);
+}
+
+.o-container__col-lg-2-col-6 {
+    @include media-grid($o-lg, 10, 2);
 }
 
 .o-container__col-lg-2-col-6 {
     @include media-grid($o-lg, 11, 2);
 }
+
 
 //lg-01-cols-11
 .o-container__col-lg-1-col-1 {
@@ -504,52 +1047,163 @@ body {
     @include media-grid($o-lg, 11, 1);
 }
 
-
+.o-container__col-lg-1-col-12 {
+    @include media-grid($o-lg, 12, 1);
+}
 
 
 /******************large********************/
 
-//xl-11-col-1
+//xl-12-col-1
+.o-container__col-sm-12-col-2 {
+    @include media-grid($o-xl, 1, 12);
+}
+
+//xl-11-cols-2
 .o-container__col-xl-11-col-1 {
     @include media-grid($o-xl, 1, 11);
 }
 
-//xl-10-col-1
+.o-container__col-xl-11-col-2 {
+    @include media-grid($o-xl, 2, 11);
+}
+
+//xl-10-col-3
 .o-container__col-xl-10-col-1 {
     @include media-grid($o-xl, 1, 10);
 }
 
-//xl-09-col-1
+.o-container__col-xl-10-col-2 {
+    @include media-grid($o-xl, 2, 10);
+}
+
+.o-container__col-xl-10-col-3 {
+    @include media-grid($o-xl, 3, 10);
+}
+
+//xl-09-cols-4
 .o-container__col-xl-9-col-1 {
     @include media-grid($o-xl, 1, 9);
 }
 
-//xl-08-col-1
+.o-container__col-xl-9-col-2 {
+    @include media-grid($o-xl, 2, 9);
+}
+
+.o-container__col-xl-9-col-3 {
+    @include media-grid($o-xl, 3, 9);
+}
+
+.o-container__col-xl-9-col-4 {
+    @include media-grid($o-xl, 4, 9);
+}
+
+//xl-08-cols-5
 .o-container__col-xl-8-col-1 {
     @include media-grid($o-xl, 1, 8);
 }
 
-//xl-07-col-1
+.o-container__col-xl-8-col-2 {
+    @include media-grid($o-xl, 2, 8);
+}
+
+.o-container__col-xl-8-col-3 {
+    @include media-grid($o-xl, 3, 8);
+}
+
+.o-container__col-xl-8-col-4 {
+    @include media-grid($o-xl, 4, 8);
+}
+
+.o-container__col-xl-8-col-5 {
+    @include media-grid($o-xl, 5, 8);
+}
+
+//xl-07-cols-6
 .o-container__col-xl-7-col-1 {
     @include media-grid($o-xl, 1, 7);
 }
 
-//xl-06-cols-2
+.o-container__col-xl-7-col-2 {
+    @include media-grid($o-xl, 2, 7);
+}
+
+.o-container__col-xl-7-col-3 {
+    @include media-grid($o-xl, 3, 7);
+}
+
+.o-container__col-xl-7-col-4 {
+    @include media-grid($o-xl, 4, 7);
+}
+
+.o-container__col-xl-7-col-5 {
+    @include media-grid($o-xl, 5, 7);
+}
+
+.o-container__col-xl-7-col-6 {
+    @include media-grid($o-xl, 6, 7);
+}
+
+//xl-06-cols-7
 .o-container__col-xl-6-col-1 {
     @include media-grid($o-xl, 1, 6);
 }
 
 .o-container__col-xl-6-col-2 {
+    @include media-grid($o-xl, 2, 6);
+}
+
+.o-container__col-xl-6-col-3 {
+    @include media-grid($o-xl, 3, 6);
+}
+
+.o-container__col-xl-6-col-4 {
+    @include media-grid($o-xl, 4, 6);
+}
+
+.o-container__col-xl-6-col-5 {
+    @include media-grid($o-xl, 5, 6);
+}
+
+.o-container__col-xl-6-col-6 {
+    @include media-grid($o-xl, 6, 6);
+}
+
+.o-container__col-xl-6-col-7 {
     @include media-grid($o-xl, 7, 6);
 }
 
-//xl-05-cols-2
+//xl-05-cols-8
 .o-container__col-xl-5-col-1 {
     @include media-grid($o-xl, 1, 5);
 }
 
 .o-container__col-xl-5-col-2 {
+    @include media-grid($o-xl, 2, 5);
+}
+
+.o-container__col-xl-5-col-3 {
+    @include media-grid($o-xl, 3, 5);
+}
+
+.o-container__col-xl-5-col-4 {
+    @include media-grid($o-xl, 4, 5);
+}
+
+.o-container__col-xl-5-col-5 {
+    @include media-grid($o-xl, 5, 5);
+}
+
+.o-container__col-xl-5-col-6 {
     @include media-grid($o-xl, 6, 5);
+}
+
+.o-container__col-xl-5-col-7 {
+    @include media-grid($o-xl, 7, 5);
+}
+
+.o-container__col-xl-5-col-8 {
+    @include media-grid($o-xl, 8, 5);
 }
 
 //xl-04-cols-3
@@ -558,54 +1212,124 @@ body {
 }
 
 .o-container__col-xl-4-col-2 {
-    @include media-grid($o-xl, 5, 4);
+    @include media-grid($o-xl, 2, 4);
 }
 
 .o-container__col-xl-4-col-3 {
+    @include media-grid($o-xl, 3, 4);
+}
+
+.o-container__col-xl-4-col-4 {
+    @include media-grid($o-xl, 4, 4);
+}
+
+.o-container__col-xl-4-col-5 {
+    @include media-grid($o-xl, 5, 4);
+}
+
+.o-container__col-xl-4-col-6 {
+    @include media-grid($o-xl, 6, 4);
+}
+
+.o-container__col-xl-4-col-7 {
+    @include media-grid($o-xl, 7, 4);
+}
+
+.o-container__col-xl-4-col-8 {
+    @include media-grid($o-xl, 8, 4);
+}
+
+.o-container__col-xl-4-col-9 {
     @include media-grid($o-xl, 9, 4);
 }
 
-//xl-03-cols-4
+//xl-03-cols-10
 .o-container__col-xl-3-col-1 {
     @include media-grid($o-xl, 1, 3);
 }
 
 .o-container__col-xl-3-col-2 {
-    @include media-grid($o-xl, 4, 3);
+    @include media-grid($o-xl, 2, 3);
 }
 
 .o-container__col-xl-3-col-3 {
-    @include media-grid($o-xl, 7, 3);
+    @include media-grid($o-xl, 3, 3);
 }
 
 .o-container__col-xl-3-col-4 {
+    @include media-grid($o-xl, 4, 3);
+}
+
+.o-container__col-xl-3-col-5 {
+    @include media-grid($o-xl, 5, 3);
+}
+
+.o-container__col-xl-3-col-6 {
+    @include media-grid($o-xl, 6, 3);
+}
+
+.o-container__col-xl-3-col-7 {
+    @include media-grid($o-xl, 7, 3);
+}
+
+.o-container__col-xl-3-col-8 {
+    @include media-grid($o-xl, 8, 3);
+}
+
+.o-container__col-xl-3-col-9 {
+    @include media-grid($o-xl, 9, 3);
+}
+
+.o-container__col-xl-3-col-10 {
     @include media-grid($o-xl, 10, 3);
 }
 
-//xl-02-cols-6
+
+//xl-02-cols-11
 .o-container__col-xl-2-col-1 {
     @include media-grid($o-xl, 1, 2);
 }
 
 .o-container__col-xl-2-col-2 {
-    @include media-grid($o-xl, 3, 2);
+    @include media-grid($o-xl, 2, 2);
 }
 
 .o-container__col-xl-2-col-3 {
-    @include media-grid($o-xl, 5, 2);
+    @include media-grid($o-xl, 3, 2);
 }
 
 .o-container__col-xl-2-col-4 {
-    @include media-grid($o-xl, 7, 2);
+    @include media-grid($o-xl, 4, 2);
 }
 
 .o-container__col-xl-2-col-5 {
+    @include media-grid($o-xl, 5, 2);
+}
+
+.o-container__col-xl-2-col-6 {
+    @include media-grid($o-xl, 6, 2);
+}
+
+.o-container__col-xl-2-col-6 {
+    @include media-grid($o-xl, 7, 2);
+}
+
+.o-container__col-xl-2-col-6 {
+    @include media-grid($o-xl, 8, 2);
+}
+
+.o-container__col-xl-2-col-6 {
     @include media-grid($o-xl, 9, 2);
+}
+
+.o-container__col-xl-2-col-6 {
+    @include media-grid($o-xl, 10, 2);
 }
 
 .o-container__col-xl-2-col-6 {
     @include media-grid($o-xl, 11, 2);
 }
+
 
 //xl-01-cols-11
 .o-container__col-xl-1-col-1 {
@@ -650,6 +1374,10 @@ body {
 
 .o-container__col-xl-1-col-11 {
     @include media-grid($o-xl, 11, 1);
+}
+
+.o-container__col-xl-1-col-12 {
+    @include media-grid($o-xl, 12, 1);
 }
 
 
