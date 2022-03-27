@@ -1,6 +1,6 @@
 //Objectos computer
 .o-computer {
-    @include height-pages-200;
+    @include height-pages-100;
     &__heading {
         @include mb-bg;
     }
@@ -17,4 +17,6 @@
         @include mb-bg;
     }
 }
+
+
 

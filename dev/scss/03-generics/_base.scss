@@ -12,6 +12,7 @@ html {
 body {
     margin: 0;
     padding: 0;
+    width: 100%;
     text-align: center;
     font-family: $s-font-family;
     font-size: $s-font-size-body;
@@ -27,7 +28,6 @@ main > section,
 main > div {
     padding: 0 2em;
 }
-
 
 
 h1,
