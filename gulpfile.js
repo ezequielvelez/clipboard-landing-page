@@ -30,9 +30,7 @@ gulp.task('htmlmin', () => {
 gulp.task('sass', () => {
     return gulp
         .src('./dev/scss/main.scss')
-        .pipe(sass({
-            outputStyle: 'compressed'
-        }))
+        .pipe(sass())
         .pipe(gulp.dest('./dev/styles'))
         .pipe(browserSync.stream());
 });

@@ -1,4 +1,4 @@
-//Objects header
+/**************************************HEADER***************************************/
 .o-header {
     @include min-height-page-100;
     display: flex;
@@ -13,14 +13,6 @@
         @include mb-md;
     }
     &__title {
-        @include mb-sm;
-    }
-    &__buttons {
-        width: 100%;
-        display: flex;
-        flex-flow: column nowrap;
-        justify-content: center;
-        align-items: center;
         @include mb-sm;
     }
 }

@@ -18,15 +18,10 @@
     }
 }
 
+
 @mixin media-gap-computer {
     @media screen and (min-width: $o-lg) {
         column-gap: 4rem;
-    }
-}
-
-@mixin media-grid-content($size) {
-    @media screen and (min-width: $size){
-        @content;
     }
 }
 

@@ -1,6 +1,5 @@
-.o-workflow {
-    @include min-height-page-50;
-    height: 100vh;
+/**************************************CARDS***************************************/
+.c-cards {
     &__image--mb--bg {
         @include mb-bg;
     }
@@ -8,3 +7,4 @@
         @include mb-sm;
     }
 }
+

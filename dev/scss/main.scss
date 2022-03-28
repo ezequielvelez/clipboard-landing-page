@@ -1,42 +1,51 @@
-//01 - Settings
-@import './01-settings/colors';
-@import './01-settings/fonts';
-@import './01-settings/breakpoints';
-@import './01-settings/spaced';
-@import './01-settings/gap';
-//espaciados
+//01 - Importing settings
+@import './01-settings/s-settings';
+@import './01-settings/s-colors';
+@import './01-settings/s-fonts';
+@import './01-settings/s-breakpoints';
+@import './01-settings/s-spaced';
+@import './01-settings/s-gap';
 
-@import './02-tools/height';
-@import './02-tools/spaced';
-@import './02-tools/mediaqueries';
-@import './02-tools/gap';
+//02 - Importing tools
+@import './02-tools/t-tools';
+@import './02-tools/t-height';
+@import './02-tools/t-spaced';
+@import './02-tools/t-mediaqueries';
+@import './02-tools/t-gap';
 
-//03 - Generics
-@import './03-generics/normalize';
-@import './03-generics/base';
+//03 - Importing generics
+@import './03-generics/g-generics';
+@import './03-generics/g-normalize';
+@import './03-generics/g-base';
 
-//04 - Elements
-@import './04-elements/headings';
-@import './04-elements/images';
-@import './04-elements/list';
-@import './04-elements/links';
-@import './04-elements/paragraphs';
+//04 - Importing elements
+@import './04-elements/e-elements';
+@import './04-elements/e-headings';
+@import './04-elements/e-images';
+@import './04-elements/e-list';
+@import './04-elements/e-links';
+@import './04-elements/e-paragraphs';
 
-//05 - Objects
-@import './05-objects/container';
-@import './05-objects/header';
-@import './05-objects/computer';
-@import './05-objects/devices';
-@import './05-objects/workflow';
-@import './05-objects/download';
-@import './05-objects/footer';
+//05 - Importing Objects
+@import './05-objects/o-objects';
+@import './05-objects/o-grid';
+@import './05-objects/o-header';
+@import './05-objects/o-computer';
+@import './05-objects/o-devices';
+@import './05-objects/o-workflow';
 @import './05-objects/o-logos';
+@import './05-objects/o-download';
+@import './05-objects/o-footer';
 
-//06 - Components
-@import './06-components/social-media';
-@import './06-components/logo';
-@import './06-components/buttons';
+//06 - Importing components
+@import './06-components/c-components';
+@import './06-components/c-nav';
+@import './06-components/c-social-media';
+@import './06-components/c-logo';
+@import './06-components/c-buttons';
+@import './06-components/c-cards';
+@import './06-components/c-brandings';
 
-//07-Mediaqueries
-@import './07-mediaqueries/mediaqueries.scss';
+//07- Importing mediaqueries
+@import './07-mediaqueries/m-mediaqueries.scss';
 

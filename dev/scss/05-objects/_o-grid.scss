@@ -1,4 +1,5 @@
-.o-container {
+/**************************************GRID***************************************/
+.o-container-grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);    
     align-content: center;
@@ -6,16 +7,16 @@
 }
 
 
-.o-container--ac--around {
+.o-container-grid--ac--around {
     align-content: space-around;
 }
 
 
-.o-container--column--gap--bg {
+.o-container-grid--column--gap--bg {
     @include column-gap-bg;
 }
 
-.o-container--row--gap--bg {
+.o-container-grid--row--gap--bg {
     @include row-gap-bg;
 }
 
