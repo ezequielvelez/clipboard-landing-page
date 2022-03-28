@@ -35,25 +35,25 @@
 </head>
 <body> 
   <!--Header-->
-  <header class="o-header">
-    <div class="o-header__logo">
+  <header class="o-container-grid  o-header">
+    <div class="o-container-grid__col-12-col-1 o-container-grid__col-sm-12-col-1 o-container-grid__col-md-12-col-1 o-header__image">
       <img src="./assets/images/logo.svg" alt="logo" class="c-logo--bg">
     </div>
-    <div class="o-header__heading">
+    <div class="o-container-grid__col-12-col-1 o-container-grid__col-sm-12-col-1 o-container-grid__col-md-12-col-1 o-header__content">
       <h1 class="o-header__title">A history of everything you copy</h1>
       <p class="o-header__paragraph">
         Clipboard allows you to track and organize everything you 
         copy. Instantly access your clipboard on all your devices.
       </p>
     </div>
-    <div class="c-buttons">
+    <div class="o-container-grid__col-12-col-1 o-container-grid__col-sm-12-col-1 o-container-grid__col-md-12-col-1 c-buttons">
       <a href="#" class="c-button c-button--cyan">Download for iOS</a>
       <a href="#" class="c-button c-button--purple">Download for Mac</a>
     </div>
   </header>
   <main>
     <!--computer-->
-    <section class="o-container-grid o-container-grid--column--gap--bg--lg o-container-grid--row--gap--bg o-container-grid__row o-computer">
+    <section class="o-container-grid o-container-grid--column--gap--lg--mq--md  o-container-grid--row--gap--bg o-container-grid__row o-computer">
       <div class="o-container-grid__col-12-col-1 o-container-grid__col-sm-12-col-1 o-computer__heading">
         <h2 class="o-computer__title">Keep track of your snippets</h2>
         <p class="o-computer__paragraph">
@@ -81,7 +81,7 @@
       </div>
     </section>
     <!--devices-->
-    <section class="o-container-grid o-container-grid--gap--bg o-container-grid__row  o-devices">
+    <section class="o-container-grid o-container-grid--row--gap--bg  o-devices">
       <div class="o-container-grid__col-12-col-1 o-container-grid__col-sm-12-col-1  o-devices__heading">
         <h2 class="o-devices__title--mb--sm">Access Clipboard anywhere</h2>
         <p class="o-devices__paragraph--mb--bg">
@@ -93,7 +93,7 @@
       </div>
     </section>
     <!--Worflow-->
-    <div class="o-container-grid  o-container-grid--row--gap--bg o-container-grid__row o-container-grid--column--gap--bg--lg o-workflow">
+    <div class="o-container-grid  o-container-grid--row--gap--xbg o-container-grid__row o-container-grid--column--gap--bg--lg o-workflow">
       <div class="o-container-grid__col-12-col-1 o-container-grid__col-sm-12-col-1 o-workflow__heading">
         <h2 class="o-workflow__title--mb--sm">Supercharge your workflow</h2>
         <p>
@@ -101,21 +101,21 @@
         </p>
       </div>
       <div class="o-container-grid__col-12-col-1 o-container-grid__col-sm-12-col-1 o-container-grid__col-md-12-col-1 o-container-grid__col-lg-4-col-1  o-container-grid__col-xl-4-col-1 c-cards">
-        <img src="./assets/icons/icon-blacklist.svg" alt="blacklists icon" class="c-cards__image--mb--bg">
+        <img src="./assets/icons/icon-blacklist.svg" alt="blacklists icon" class="c-cards__image--mb--md">
         <h3 class="c-cards__title--mb--sm">Create blacklists</h3>
         <p>
           Ensure sensitive information never makes its way to your clipboard by excluding certain sources.
         </p>
       </div>
       <div class="o-container-grid__col-12-col-1 o-container-grid__col-sm-12-col-1 o-container-grid__col-md-12-col-1 o-container-grid__col-lg-4-col-5 o-container-grid__col-xl-4-col-5 c-cards">
-        <img src="./assets/icons/icon-text.svg" alt="text icon" class="c-cards__image--mb--bg">
+        <img src="./assets/icons/icon-text.svg" alt="text icon" class="c-cards__image--mb--md">
         <h3 class="c-cards__title--mb--sm">Plain text snippets</h3>
         <p>
           Remove unwanted formatting from copied text for a consistent look.
         </p>
       </div>
       <div class="o-container-grid__col-12-col-1 o-container-grid__col-sm-12-col-1 o-container-grid__col-md-12-col-1 o-container-grid__col-lg-4-col-9 o-container-grid__col-xl-4-col-9 c-cards">
-        <img src="./assets/icons/icon-preview.svg" alt="preview icon" class="c-cards__image--mb--bg">
+        <img src="./assets/icons/icon-preview.svg" alt="preview icon" class="c-cards__image--mb--md">
         <h3 class="c-cards__title--mb--sm">Sneak preview</h3>
         <p>
           Quick preview of all snippets on your Clipboard for easy access.
@@ -123,7 +123,7 @@
       </div>
     </div>
     <!--Logos-->
-    <div class="o-container-grid  o-container-grid--row--gap--bg o-container-grid__row o-logos">
+    <div class="o-container-grid  o-container-grid--row--gap--bg o-container-grid--row--gap--bg--md-lg o-container-grid__row o-logos">
       <div class="o-container-grid__col-12-col-1 o-container-grid__col-sm-12-col-1 o-container-grid__col-md-12-col-1 o-container-grid__col-lg-4-col-1 o-container-grid__col-xl-2-col-2">
         <img src="./assets/images/logo-google.png" alt="Google image" class="c-brandings">
       </div>
@@ -141,14 +141,14 @@
       </div>
     </div>   
     <!--Downloads--> 
-    <section class="o-downloads">
-      <div class="o-downloads__heading">
+    <section class="o-container-grid o-downloads">
+      <div class="o-container-grid__col-12-col-1 o-container-grid__col-sm-12-col-1 o-container-grid__col-md-12-col-1 o-downloads__heading">
         <h2 class="o-downloads__title">Clipboard for iOS and Mac OS</h2>
         <p class="o-downloads__title">
           Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you’re ready to start adding to your clipboard.
         </p>
       </div>
-      <div class="c-buttons">
+      <div class="o-container-grid__col-12-col-1 o-container-grid__col-sm-12-col-1 o-container-grid__col-md-12-col-1 c-buttons">
         <a href="#" class="c-button c-button--cyan">Download for iOS</a>
         <a href="#" class="c-button c-button--purple">Download for Mac</a>
       </div>

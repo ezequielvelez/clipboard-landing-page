@@ -1,0 +1,117 @@
+
+//sm gap
+.o-container-grid--column--gap--sm--mq--sm {
+    @include mq-column-gap($o-sm, $o-gap-sm)
+}
+.o-container-grid--row--gap--sm--mq--sm {
+    @include mq-row-gap($o-sm, $o-gap-sm)
+}
+
+.o-container-grid--column--gap--sm--mq--md {
+    @include mq-column-gap($o-sm, $o-gap-md)
+}
+.o-container-grid--row--gap--sm--mq--md {
+    @include mq-row-gap($o-sm, $o-gap-md)
+}
+
+.o-container-grid--column--gap--sm--mq--bg {
+    @include mq-column-gap($o-sm, $o-gap-bg)
+}
+.o-container-grid--row--gap--sm--mq--bg {
+    @include mq-row-gap($o-sm, $o-gap-bg)
+}
+
+.o-container-grid--column--gap--sm--mq--xbg {
+    @include mq-column-gap($o-sm, $o-gap-xbg)
+}
+.o-container-grid--row--gap--sm--mq--xbg {
+    @include mq-row-gap($o-sm, $o-gap-xbg)
+}
+
+//md gap
+.o-container-grid--column--gap--md--mq--sm {
+    @include mq-column-gap($o-md, $o-gap-sm)
+}
+.o-container-grid--row--gap--md--mq--sm {
+    @include mq-row-gap($o-md, $o-gap-sm)
+}
+
+.o-container-grid--column--gap--md--mq--md {
+    @include mq-column-gap($o-md, $o-gap-md)
+}
+.o-container-grid--row--gap--md--mq--md {
+    @include mq-row-gap($o-md, $o-gap-md)
+}
+
+.o-container-grid--column--gap--md--mq--bg {
+    @include mq-column-gap($o-md, $o-gap-bg)
+}
+.o-container-grid--row--gap--md--mq--bg {
+    @include mq-row-gap($o-md, $o-gap-bg)
+}
+
+.o-container-grid--column--gap--md--mq--xbg {
+    @include mq-column-gap($o-md, $o-gap-xbg)
+}
+.o-container-grid--row--gap--md--mq--xbg {
+    @include mq-row-gap($o-md, $o-gap-xbg)
+}
+
+//lg gap
+.o-container-grid--column--gap--lg--mq--sm {
+    @include mq-column-gap($o-lg, $o-gap-sm)
+}
+.o-container-grid--row--gap--lg--mq--sm {
+    @include mq-row-gap($o-lg, $o-gap-sm)
+}
+
+.o-container-grid--column--gap--lg--mq--md {
+    @include mq-column-gap($o-lg, $o-gap-md)
+}
+.o-container-grid--row--gap--lg--mq--md {
+    @include mq-row-gap($o-lg, $o-gap-md)
+}
+
+.o-container-grid--column--gap--lg--mq--bg {
+    @include mq-column-gap($o-lg, $o-gap-bg)
+}
+.o-container-grid--row--gap--lg--mq--bg {
+    @include mq-row-gap($o-lg, $o-gap-bg)
+}
+
+.o-container-grid--column--gap--lg--mq--xbg {
+    @include mq-column-gap($o-lg, $o-gap-xbg)
+}
+.o-container-grid--row--gap--lg--mq--xbg {
+    @include mq-row-gap($o-lg, $o-gap-xbg)
+}
+
+//xl gap
+.o-container-grid--column--gap--xl--mq--sm {
+    @include mq-column-gap($o-xl, $o-gap-sm)
+}
+.o-container-grid--row--gap--xl--mq--sm {
+    @include mq-row-gap($o-xl, $o-gap-sm)
+}
+
+.o-container-grid--column--gap--xl--mq--md {
+    @include mq-column-gap($o-xl, $o-gap-md)
+}
+.o-container-grid--row--gap--xl--mq--md {
+    @include mq-row-gap($o-xl, $o-gap-md)
+}
+
+.o-container-grid--column--gap--xl--mq--bg {
+    @include mq-column-gap($o-xl, $o-gap-bg)
+}
+.o-container-grid--row--gap--xl--mq--bg {
+    @include mq-row-gap($o-xl, $o-gap-bg)
+}
+
+.o-container-grid--column--gap--xl--mq--xbg {
+    @include mq-column-gap($o-xl, $o-gap-xbg)
+}
+.o-container-grid--row--gap--xl--mq--xbg {
+    @include mq-row-gap($o-xl, $o-gap-xbg)
+}
+

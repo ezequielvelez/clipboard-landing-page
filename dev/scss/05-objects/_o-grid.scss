@@ -11,7 +11,26 @@
     align-content: space-around;
 }
 
+//Gap 
+//sm
+.o-container-grid--column--gap--sm {
+    @include column-gap-sm;
+}
 
+.o-container-grid--row--gap--sm {
+    @include row-gap-sm;
+}
+
+//md
+.o-container-grid--column--gap--md {
+    @include column-gap-sm;
+}
+
+.o-container-grid--row--gap--md {
+    @include row-gap-md;
+}
+
+//bg
 .o-container-grid--column--gap--bg {
     @include column-gap-bg;
 }
@@ -20,12 +39,32 @@
     @include row-gap-bg;
 }
 
+//xbg
+.o-container-grid--column--gap--xbg {
+    @include column-gap-xbg;
+}
+
+.o-container-grid--row--gap--xbg {
+    @include row-gap-xbg;
+}
+
+
 %template__sections {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
 }
+
+@mixin column-gap-sm {
+    column-gap: map-get($map: $gap, $key: 'sm');
+}
+
+@mixin row-gap-sm {
+    row-gap: map-get($map: $gap, $key: 'sm');
+}
+
+
 
 
 

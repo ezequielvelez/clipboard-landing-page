@@ -2,10 +2,6 @@
 .o-downloads {
     @include min-height-page-100;
     @include height-page-auto;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
     &__heading {
         @include mb-md;
     }
@@ -13,4 +9,6 @@
         @include mb-sm;
     }
 }
+
+
 

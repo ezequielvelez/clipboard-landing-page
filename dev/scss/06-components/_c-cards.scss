@@ -1,7 +1,7 @@
 /**************************************CARDS***************************************/
 .c-cards {
-    &__image--mb--bg {
-        @include mb-bg;
+    &__image--mb--md {
+        @include mb-md;
     }
     &__title--mb--sm {
         @include mb-sm;

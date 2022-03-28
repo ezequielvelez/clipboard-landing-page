@@ -1,5 +1,5 @@
 /**************************************LOGOS***************************************/
 .o-logos {
-    @include min-height-page-50;
-    max-height: 1000px;
+    @include  min-height-page-50;
+    @include height-page-auto;
 }

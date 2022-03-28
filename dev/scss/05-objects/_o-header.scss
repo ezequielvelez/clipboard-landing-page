@@ -1,15 +1,11 @@
 /**************************************HEADER***************************************/
 .o-header {
     @include min-height-page-100;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
     box-sizing: content-box;
-    &__logo {
-        @include mb-bg;
+    &__image {
+        @include mb-md;
     }
-    &__heading {
+    &__content {
         @include mb-md;
     }
     &__title {

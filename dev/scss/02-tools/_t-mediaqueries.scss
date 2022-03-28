@@ -1,3 +1,4 @@
+//Tamaño de fuente
 @mixin media-body($size){ 
     @media screen and (min-width: $size) {
         @if $size == $o-md {
@@ -6,6 +7,7 @@
     }
 }
 
+//Maquetacíón general
 @mixin media-grid($size, $column-start, $span) {
     @if $size < $o-sm {
         @media screen and (max-width: $size) {
@@ -18,14 +20,22 @@
     }
 }
 
+//Gap
+@mixin mq-column-gap($size, $column-gap) {
+    @media screen and (min-width: $size) {
+        column-gap: $column-gap;
+    }
+}
 
-@mixin media-gap-computer {
-    @media screen and (min-width: $o-lg) {
-        column-gap: 4rem;
+@mixin mq-row-gap($size, $row-gap) {
+    @media screen and (min-width: $size) {
+        column-gap: $row-gap;
     }
 }
 
 
+
+//Alineacion a la izquierda
 @mixin media-grid-ta-pd($size) {
     @media  screen and (min-width: $size) {
         text-align: left;

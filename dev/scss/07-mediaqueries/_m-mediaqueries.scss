@@ -10,26 +10,13 @@ $o-lg: map-get($map: $s-breakpoints-width, $key: 'lg');
 $o-xl: map-get($map: $s-breakpoints-width, $key: 'xl');
 
 
-body {
-    @include media-body($o-md);
-}
-//Header
-@media  screen and (min-width: $o-lg) {
-    .o-computer {
-        padding-left: 0;
-    }
-}
-
-.o-container-grid--column--gap--bg--lg {
-    @include media-gap-computer;
-}
+$o-gap-sm: map-get($map: $gap, $key: 'sm');
+$o-gap-md: map-get($map: $gap, $key: 'md');
+$o-gap-bg: map-get($map: $gap, $key: 'bg');
+$o-gap-xbg: map-get($map: $gap, $key: 'xbg');
 
 
 
-
-.o-computer__features {
-    @include media-grid-ta-pd($o-lg);
-}
 
 /**************************Mediaqueries***************************/
 

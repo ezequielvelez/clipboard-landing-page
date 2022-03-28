@@ -1,0 +1,18 @@
+//Header
+@media  screen and (min-width: $o-lg) {
+    .o-computer {
+        padding-left: 0;
+    }
+}
+
+
+.o-computer__features {
+    @include media-grid-ta-pd($o-lg);
+}
+
+@media screen and (min-width: $o-md) {
+    .c-buttons {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+}

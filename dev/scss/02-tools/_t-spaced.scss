@@ -9,3 +9,42 @@
 @mixin mb-bg {
     margin-bottom: map-get($map: $spaced, $key: 'bg');
 }
+
+@mixin mb-xbg {
+    margin-bottom: map-get($map: $spaced, $key: 'xbg');
+}
+
+
+//Gap
+@mixin column-gap-sm {
+    column-gap: map-get($map: $gap, $key: 'sm');
+}
+
+@mixin row-gap-sm {
+    row-gap: map-get($map: $gap, $key: 'sm');
+}
+
+@mixin column-gap-md {
+    column-gap: map-get($map: $gap, $key: 'md');
+}
+
+@mixin row-gap-md {
+    row-gap: map-get($map: $gap, $key: 'md');
+}
+
+@mixin column-gap-bg {
+    column-gap: map-get($map: $gap, $key: 'bg');
+}
+
+@mixin row-gap-bg {
+    row-gap: map-get($map: $gap, $key: 'bg');
+}
+
+@mixin column-gap-xbg {
+    column-gap: map-get($map: $gap, $key: 'xbg');
+}
+
+@mixin row-gap-xbg {
+    row-gap: map-get($map: $gap, $key: 'xbg');
+}
+

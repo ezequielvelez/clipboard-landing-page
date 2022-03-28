@@ -1,12 +1,9 @@
 /**************************************BUTTONS***************************************/
 .c-buttons {
-    width: 100%;
-    display: flex;
-    flex-flow: column nowrap;
+    display: grid;
+    grid-template-columns: 100%;
     justify-content: center;
     align-items: center;
-    @include mb-sm;
-    @include media-flex(map-get($map: $s-breakpoints-width, $key: 'sm'));
 }
 .c-button {
     width: 100%;

@@ -1,5 +1,9 @@
 /**************************************WORKFLOW***************************************/
 .o-workflow {
     @include min-height-page-50;
-    max-height: 1000px;
+    @include height-page-auto;
+    @include mb-xbg;
+    &__title--mb--sm {
+        @include mb-sm;
+    }
 }
