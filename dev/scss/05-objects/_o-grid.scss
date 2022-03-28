@@ -7,8 +7,8 @@
 }
 
 
-.o-container-grid--ac--around {
-    align-content: space-around;
+.o-container-grid--ac--start {
+    align-content: start;
 }
 
 //Gap 
@@ -48,13 +48,6 @@
     @include row-gap-xbg;
 }
 
-
-%template__sections {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-}
 
 @mixin column-gap-sm {
     column-gap: map-get($map: $gap, $key: 'sm');

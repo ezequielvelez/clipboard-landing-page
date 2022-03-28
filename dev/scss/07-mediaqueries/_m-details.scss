@@ -16,3 +16,9 @@
         gap: 2rem;
     }
 }
+
+@media screen and (min-width: $o-md) {
+    .o-workflow {
+        @include mb-bg;
+    }
+}

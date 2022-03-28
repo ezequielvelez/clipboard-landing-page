@@ -385,6 +385,10 @@ a {
   font-weight: 600;
 }
 
+p {
+  padding: 0;
+}
+
 /******************************************************************************************
 ****************************************ELEMENTS*******************************************
 ******************************************************************************************/
@@ -428,6 +432,9 @@ a {
 /**************************************PARAGRAPH TAGS***************************************/
 p {
   color: #9fabb2;
+  max-width: 732px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /******************************************************************************************
@@ -441,8 +448,8 @@ p {
   justify-content: center;
 }
 
-.o-container-grid--ac--around {
-  align-content: space-around;
+.o-container-grid--ac--start {
+  align-content: start;
 }
 
 .o-container-grid--column--gap--sm {
@@ -520,7 +527,7 @@ p {
 .o-workflow {
   min-height: 50vh;
   height: auto;
-  margin-bottom: 6rem;
+  margin-bottom: 8rem;
 }
 .o-workflow__title--mb--sm {
   margin-bottom: 2rem;
@@ -536,9 +543,6 @@ p {
 .o-downloads {
   min-height: 100vh;
   height: auto;
-}
-.o-downloads__heading {
-  margin-bottom: 4rem;
 }
 .o-downloads__title {
   margin-bottom: 2rem;
@@ -587,6 +591,10 @@ p {
 
 /**************************************BUTTONS***************************************/
 .c-buttons {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 730px;
   display: grid;
   grid-template-columns: 100%;
   justify-content: center;
@@ -3181,5 +3189,10 @@ p {
   .c-buttons {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .o-workflow {
+    margin-bottom: 6rem;
   }
 }

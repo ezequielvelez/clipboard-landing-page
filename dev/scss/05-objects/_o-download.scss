@@ -2,9 +2,6 @@
 .o-downloads {
     @include min-height-page-100;
     @include height-page-auto;
-    &__heading {
-        @include mb-md;
-    }
     &__title {
         @include mb-sm;
     }
