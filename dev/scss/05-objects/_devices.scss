@@ -1,9 +1,7 @@
 //Devices section
 .o-devices {
-    @include height-pages-100;
-    &__heading {
-        @include mb-md;
-    }
+    @include min-height-page-100;
+    @include height-page-auto;
     &__title--mb--sm {
         @include mb-sm
     }

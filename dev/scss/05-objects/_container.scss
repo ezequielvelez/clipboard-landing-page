@@ -1,12 +1,22 @@
 .o-container {
     display: grid;
-    grid-template-columns: repeat(12, 8.333333333%);
+    grid-template-columns: repeat(12, 1fr);    
     align-content: center;
     justify-content: center;
-    &__row--ac--sa {
-        align-content: space-around;
-    }
+}
 
+
+.o-container--ac--around {
+    align-content: space-around;
+}
+
+
+.o-container--column--gap--bg {
+    @include column-gap-bg;
+}
+
+.o-container--row--gap--bg {
+    @include row-gap-bg;
 }
 
 %template__sections {

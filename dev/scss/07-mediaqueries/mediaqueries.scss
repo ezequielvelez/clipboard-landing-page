@@ -5,6 +5,7 @@ $o-md: map-get($map: $s-breakpoints-width, $key: 'md');
 $o-lg: map-get($map: $s-breakpoints-width, $key: 'lg');
 $o-xl: map-get($map: $s-breakpoints-width, $key: 'xl');
 
+
 body {
     @include media-body($o-md);
 }
@@ -14,6 +15,11 @@ body {
         padding-left: 0;
     }
 }
+
+.o-container--column--gap--bg--lg {
+    @include media-gap-computer;
+}
+
 
 
 

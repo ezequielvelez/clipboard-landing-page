@@ -1,0 +1,23 @@
+@mixin column-gap-sm {
+    column-gap: map-get($map: $gap, $key: 'sm');
+}
+
+@mixin row-gap-sm {
+    row-gap: map-get($map: $gap, $key: 'sm');
+}
+
+@mixin column-gap-md {
+    column-gap: map-get($map: $gap, $key: 'md');
+}
+
+@mixin row-gap-md {
+    row-gap: map-get($map: $gap, $key: 'md');
+}
+
+@mixin column-gap-bg {
+    column-gap: map-get($map: $gap, $key: 'bg');
+}
+
+@mixin row-gap-bg {
+    row-gap: map-get($map: $gap, $key: 'bg');
+}

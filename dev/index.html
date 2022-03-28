@@ -34,6 +34,7 @@
   <link rel="stylesheet" href="styles/main.css">
 </head>
 <body> 
+  <!--Header-->
   <header class="o-header">
     <div class="o-header__logo">
       <img src="./assets/images/logo.svg" alt="logo" class="o-header__icon c-logo--bg">
@@ -51,7 +52,8 @@
     </div>
   </header>
   <main>
-    <section class="o-container o-container__row o-computer">
+    <!--computer-->
+    <section class="o-container o-container--column--gap--bg--lg o-container--row--gap--bg o-container__row o-computer">
       <div class="o-container__col-12-col-1 o-container__col-sm-12-col-1 o-computer__heading">
         <h2 class="o-computer__title">Keep track of your snippets</h2>
         <p class="o-computer__paragraph">
@@ -78,7 +80,8 @@
         </p>
       </div>
     </section>
-    <section class="o-container o-container__row  o-devices">
+    <!--devices-->
+    <section class="o-container o-container--gap--bg o-container__row  o-devices">
       <div class="o-container__col-12-col-1 o-container__col-sm-12-col-1  o-devices__heading">
         <h2 class="o-devices__title--mb--sm">Access Clipboard anywhere</h2>
         <p class="o-devices__paragraph--mb--bg">
@@ -89,50 +92,54 @@
         <img src="./assets/images/image-devices.png" alt="devices">
       </div>
     </section>
-    <div class="o-container o-container__row  o-workflow">
+    <!--Worflow-->
+    <div class="o-container  o-container--row--gap--bg o-container__row o-container--column--gap--bg--lg o-workflow">
       <div class="o-container__col-12-col-1 o-container__col-sm-12-col-1 o-workflow__heading">
         <h2 class="o-workflow__title--mb--sm">Supercharge your workflow</h2>
         <p>
           We’ve got the tools to boost your productivity.
         </p>
       </div>
-      <div class="o-container__col-12-col-1 o-container__col-sm-12-col-1 o-container__col-md-12-col-1 o-container__col-lg-6-col-1  o-container__col-xl-4-col-1">
+      <div class="o-container__col-12-col-1 o-container__col-sm-12-col-1 o-container__col-md-12-col-1 o-container__col-lg-4-col-1  o-container__col-xl-4-col-1">
         <img src="./assets/icons/icon-blacklist.svg" alt="blacklists icon" class="o-workflow__image--mb--bg">
         <h3 class="o-workflow__title--mb--sm">Create blacklists</h3>
         <p>
           Ensure sensitive information never makes its way to your clipboard by excluding certain sources.
         </p>
       </div>
-      <div class="o-container__col-12-col-1 o-container__col-sm-12-col-1 o-container__col-md-12-col-1 o-container__col-lg-6-col-7 o-container__col-xl-4-col-5">
+      <div class="o-container__col-12-col-1 o-container__col-sm-12-col-1 o-container__col-md-12-col-1 o-container__col-lg-4-col-5 o-container__col-xl-4-col-5">
         <img src="./assets/icons/icon-text.svg" alt="text icon" class="o-workflow__image--mb--bg">
         <h3 class="o-workflow__title--mb--sm">Plain text snippets</h3>
         <p>
           Remove unwanted formatting from copied text for a consistent look.
         </p>
       </div>
-      <div class="o-container__col-12-col-1 o-container__col-sm-12-col-1 o-container__col-md-12-col-1 o-container__col-lg-6-col-4 o-container__col-xl-4-col-9">
+      <div class="o-container__col-12-col-1 o-container__col-sm-12-col-1 o-container__col-md-12-col-1 o-container__col-lg-4-col-9 o-container__col-xl-4-col-9">
         <img src="./assets/icons/icon-preview.svg" alt="preview icon" class="o-workflow__image--mb--bg">
         <h3 class="o-workflow__title--mb--sm">Sneak preview</h3>
         <p>
           Quick preview of all snippets on your Clipboard for easy access.
         </p>
       </div>
-      <div class="o-container__col-12-col-1 o-container__col-sm-12-col-1 o-container__col-md-6-col-1 o-container__col-lg-4-col-1 o-container__col-xl-2-col-2 o-logos__items">
+    </div>
+    <!--Logos-->
+    <div class="o-container  o-container--row--gap--bg o-container__row o-logos">
+      <div class="o-container__col-12-col-1 o-container__col-sm-12-col-1 o-container__col-md-12-col-1 o-container__col-lg-4-col-1 o-container__col-xl-2-col-2 o-logos__items">
         <img src="./assets/images/logo-google.png" alt="Google image" class="o-logos__logo">
       </div>
-      <div class="o-container__col-12-col-1 o-container__col-sm-12-col-1 o-container__col-md-6-col-7 o-container__col-lg-4-col-5 o-container__col-xl-2-col-4 o-logos__items">
+      <div class="o-container__col-12-col-1 o-container__col-sm-12-col-1 o-container__col-md-12-col-1 o-container__col-lg-4-col-5 o-container__col-xl-2-col-4 o-logos__items">
         <img src="./assets/images/logo-ibm.png" alt="IBM image" class="o-logos__logo">
       </div>
-      <div class="o-container__col-12-col-1 o-container__col-sm-12-col-1 o-container__col-md-6-col-1 o-container__col-lg-4-col-9 o-container__col-xl-2-col-6 o-logos__items">
+      <div class="o-container__col-12-col-1 o-container__col-sm-12-col-1 o-container__col-md-12-col-1 o-container__col-lg-4-col-9 o-container__col-xl-2-col-6 o-logos__items">
         <img src="./assets/images/logo-microsoft.png" alt="Microsoft image" class="o-logos__logo">
       </div>
-      <div class="o-container__col-12-col-1 o-container__col-sm-12-col-1 o-container__col-md-6-col-7 o-container__col-lg-4-col-3 o-container__col-xl-2-col-8 o-logos__items">
+      <div class="o-container__col-12-col-1 o-container__col-sm-12-col-1 o-container__col-md-12-col-1 o-container__col-lg-4-col-1 o-container__col-xl-2-col-8 o-logos__items">
         <img src="./assets/images/logo-hp.png" alt="Hp image" class="o-logos__logo">
       </div>
-      <div class="o-container__col-12-col-1 o-container__col-sm-12-col-1 o-container__col-md-12-col-1 o-container__col-lg-4-col-7 o-container__col-xl-2-col-10 o-logos__items">
+      <div class="o-container__col-12-col-1 o-container__col-sm-12-col-1 o-container__col-md-12-col-1 o-container__col-lg-4-col-5 o-container__col-xl-2-col-10 o-logos__items">
         <img src="./assets/images/logo-vector-graphics.png" alt="Vector Graphics image" class="o-logos__logo">
       </div>
-    </div>
+    </div>    
     <section class="o-downloads">
       <div class="o-downloads__heading">
         <h2 class="o-downloads__title">Clipboard for iOS and Mac OS</h2>

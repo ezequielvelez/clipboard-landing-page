@@ -11,10 +11,16 @@
         @media screen and (max-width: $size) {
             grid-column: $column-start / span $span;
         } 
-    } @else {
-        @media screen and (min-width: $size){
+    }@else{
+        @media screen and (min-width: $size) {
             grid-column: $column-start / span $span;
         }
+    }
+}
+
+@mixin media-gap-computer {
+    @media screen and (min-width: $o-lg) {
+        column-gap: 4rem;
     }
 }
 
@@ -28,7 +34,6 @@
 @mixin media-grid-ta-pd($size) {
     @media  screen and (min-width: $size) {
         text-align: left;
-        padding-left: 3rem;
     }
 }
 
