@@ -1,1 +1,13 @@
 /**************************************NAV***************************************/
+.c-nav {
+    &__links {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    &__links li {
+        width: 100%;
+    }
+}

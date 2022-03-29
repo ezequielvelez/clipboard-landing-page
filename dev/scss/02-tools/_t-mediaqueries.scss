@@ -35,14 +35,6 @@
 
 
 
-//Alineacion a la izquierda
-@mixin media-grid-ta-pd($size) {
-    @media  screen and (min-width: $size) {
-        text-align: left;
-    }
-}
-
-
 @mixin media-flex($size){
     @media screen and (min-width: $size) {
         flex-flow: row nowrap;

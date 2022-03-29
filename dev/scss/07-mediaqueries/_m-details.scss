@@ -5,10 +5,15 @@
     }
 }
 
-
-.o-computer__features {
-    @include media-grid-ta-pd($o-lg);
+@media screen and (min-width: $o-lg) {
+    .o-computer__features {
+        text-align: left;
+        & p {
+            margin-left: 0;
+        }
+    }
 }
+
 
 @media screen and (min-width: $o-md) {
     .c-buttons {
@@ -19,6 +24,29 @@
 
 @media screen and (min-width: $o-md) {
     .o-workflow {
-        @include mb-bg;
+        margin-bottom: 10rem;
+    }
+}
+
+@media screen and (min-width: $o-md) {
+    .c-nav {
+        &__links {
+            height: 200px;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 1rem;
+            text-align: left;
+        }
+        &__links li {
+            width: 100%;
+            max-width: 150px;
+            flex-basis: 50px;
+        }
+    }
+}
+
+@media  screen and (min-width: $o-md) {
+    .o-container-grid--jc--evenly--md {
+        justify-content: space-evenly;
     }
 }

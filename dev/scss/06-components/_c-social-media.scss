@@ -1,9 +1,11 @@
 /**************************************SOCIAL MEDIA***************************************/
-.o-footer__social-media ul {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-    gap: 2.5rem;
+.c-social-media {
+    &__list {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2.5rem;
+    }
 };
 

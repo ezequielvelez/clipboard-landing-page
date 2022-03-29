@@ -389,6 +389,11 @@ p {
   padding: 0;
 }
 
+nav,
+ul {
+  margin: 0;
+}
+
 /******************************************************************************************
 ****************************************ELEMENTS*******************************************
 ******************************************************************************************/
@@ -554,23 +559,32 @@ p {
   background-color: #ebebeb;
   min-height: 80vh;
 }
-.o-footer__logo {
-  margin-bottom: 4rem;
-}
-.o-footer__list {
-  margin-bottom: 4rem;
-}
 
 .o-footer li {
   margin-bottom: 2rem;
+}
+
+.o-footer .mb-0 {
+  margin-bottom: 0;
 }
 
 /******************************************************************************************
 **************************************COMPONENTS*******************************************
 ******************************************************************************************/
 /**************************************NAV***************************************/
+.c-nav__links {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.c-nav__links li {
+  width: 100%;
+}
+
 /**************************************SOCIAL MEDIA***************************************/
-.o-footer__social-media ul {
+.c-social-media__list {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
@@ -3183,8 +3197,10 @@ p {
   .o-computer__features {
     text-align: left;
   }
+  .o-computer__features p {
+    margin-left: 0;
+  }
 }
-
 @media screen and (min-width: 768px) {
   .c-buttons {
     grid-template-columns: 1fr 1fr;
@@ -3193,6 +3209,25 @@ p {
 }
 @media screen and (min-width: 768px) {
   .o-workflow {
-    margin-bottom: 6rem;
+    margin-bottom: 10rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .c-nav__links {
+    height: 200px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    text-align: left;
+  }
+  .c-nav__links li {
+    width: 100%;
+    max-width: 150px;
+    flex-basis: 50px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .o-container-grid--jc--evenly--md {
+    justify-content: space-evenly;
   }
 }
