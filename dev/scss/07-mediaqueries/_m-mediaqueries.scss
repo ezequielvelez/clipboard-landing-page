@@ -689,7 +689,7 @@ $o-gap-xbg: map-get($map: $gap, $key: 'xbg');
 }
 
 .o-container-grid__col-md-11-col-2 {
-    @include media-grid($o-sm, 2, 11);
+    @include media-grid($o-md, 2, 11);
 }
 
 //md-10-cols-3

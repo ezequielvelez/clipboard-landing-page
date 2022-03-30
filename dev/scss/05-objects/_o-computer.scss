@@ -2,6 +2,8 @@
 .o-computer {
     @include min-height-page-100;
     @include height-page-auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
     &__title {
         @include mb-sm;
     }

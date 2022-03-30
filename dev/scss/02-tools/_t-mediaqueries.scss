@@ -3,7 +3,10 @@
     @media screen and (min-width: $size) {
         @if $size == $o-md {
             font-size: 20px;
+        }@else if $size == $o-xl{
+            font-size: 24px;
         }
+
     }
 }
 
@@ -21,19 +24,30 @@
 }
 
 //Gap
+
 @mixin mq-column-gap($size, $column-gap) {
-    @media screen and (min-width: $size) {
-        column-gap: $column-gap;
+    @if $size < $o-sm {
+        @media screen and (max-width: $size) {
+            column-gap: $column-gap;
+        } 
+    }@else{
+        @media screen and (min-width: $size) {
+            column-gap: $column-gap;
+        } 
     }
 }
 
 @mixin mq-row-gap($size, $row-gap) {
-    @media screen and (min-width: $size) {
-        column-gap: $row-gap;
+    @if $size < $o-sm {
+        @media screen and (max-width: $size) {
+            row-gap: $row-gap;
+        } 
+    }@else{
+        @media screen and (min-width: $size) {
+            row-gap: $row-gap;
+        } 
     }
 }
-
-
 
 @mixin media-flex($size){
     @media screen and (min-width: $size) {

@@ -1,3 +1,4 @@
 body {
     @include media-body($o-md);
+    @include media-body ($o-xl);
 }

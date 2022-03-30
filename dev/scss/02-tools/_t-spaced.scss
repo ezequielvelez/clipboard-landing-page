@@ -16,6 +16,13 @@
 
 
 //Gap
+@mixin column-gap-xs {
+    column-gap: map-get($map: $gap, $key: 'xs');
+}
+
+@mixin row-gap-xs {
+    row-gap: map-get($map: $gap, $key: 'xs');
+}
 @mixin column-gap-sm {
     column-gap: map-get($map: $gap, $key: 'sm');
 }

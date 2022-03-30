@@ -3,6 +3,7 @@
     @include min-height-page-50;
     @include height-page-auto;
     @include mb-xbg;
+    margin-top: 1em;
     &__title--mb--sm {
         @include mb-sm;
     }

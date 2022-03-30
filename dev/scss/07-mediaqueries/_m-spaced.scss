@@ -1,7 +1,34 @@
+//xs gap
+.o-container-grid--column--gap--xs--mq--sm {
+    @include mq-column-gap($o-xs, $o-gap-sm)
+}
+.o-container-grid--row--gap--xs--mq--sm {
+    @include mq-row-gap($o-xs, $o-gap-sm)
+}
 
+.o-container-grid--column--gap--xs--mq--md {
+    @include mq-column-gap($o-xs, $o-gap-md)
+}
+.o-container-grid--row--gap--xs--mq--md {
+    @include mq-row-gap($o-xs, $o-gap-md)
+}
+
+.o-container-grid--column--gap--xs--mq--bg {
+    @include mq-column-gap($o-xs, $o-gap-bg)
+}
+.o-container-grid--row--gap--xs--mq--bg {
+    @include mq-row-gap($o-xs, $o-gap-bg)
+}
+
+.o-container-grid--column--gap--xs--mq--xbg {
+    @include mq-column-gap($o-xs, $o-gap-xbg)
+}
+.o-container-grid--row--gap--xs--mq--xbg {
+    @include mq-row-gap($o-xs, $o-gap-xbg)
+}
 //sm gap
 .o-container-grid--column--gap--sm--mq--sm {
-    @include mq-column-gap($o-sm, $o-gap-sm)
+    @include mq-column-gap($o-xs, $o-gap-sm)
 }
 .o-container-grid--row--gap--sm--mq--sm {
     @include mq-row-gap($o-sm, $o-gap-sm)

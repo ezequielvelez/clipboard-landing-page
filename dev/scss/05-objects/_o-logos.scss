@@ -2,4 +2,5 @@
 .o-logos {
     @include  min-height-page-50;
     @include height-page-auto;
+    margin-bottom: 1em;
 }

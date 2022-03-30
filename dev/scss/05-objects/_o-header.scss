@@ -1,13 +1,9 @@
 /**************************************HEADER***************************************/
 .o-header {
     @include min-height-page-100;
+    margin-top: 1em;
+    margin-bottom: 1em;
     box-sizing: content-box;
-    &__image {
-        @include mb-md;
-    }
-    &__content {
-        @include mb-md;
-    }
     &__title {
         @include mb-sm;
     }
