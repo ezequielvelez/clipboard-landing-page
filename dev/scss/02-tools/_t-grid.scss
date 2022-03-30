@@ -1,0 +1,19 @@
+/******************************************************************************************
+******************************************TOOLS********************************************
+******************************************************************************************/
+
+//Maquetacíón general
+@mixin media-grid($size, $column-start, $span) {
+    @if $size < $o-sm {
+        @media screen and (max-width: $size) {
+            grid-column: $column-start / span $span;
+        } 
+    }@else{
+        @media screen and (min-width: $size) {
+            grid-column: $column-start / span $span;
+        }
+    }
+}
+
+
+

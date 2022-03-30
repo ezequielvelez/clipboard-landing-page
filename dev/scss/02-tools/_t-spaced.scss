@@ -55,3 +55,30 @@
     row-gap: map-get($map: $gap, $key: 'xbg');
 }
 
+@mixin mq-row-gap($size, $row-gap) {
+    @if $size < $o-sm {
+        @media screen and (max-width: $size) {
+            row-gap: $row-gap;
+        }
+    }@else{
+        @media screen and (min-width: $size) {
+            row-gap: $row-gap;
+        }
+    }
+}
+
+
+@mixin mq-column-gap($size, $column-gap) {
+    @if $size < $o-sm {
+        @media screen and (max-width: $size) {
+            row-gap: $column-gap;
+        }
+    }@else{
+        @media screen and (min-width: $size) {
+            row-gap: $column-gap;
+        }
+    }
+}
+
+
+

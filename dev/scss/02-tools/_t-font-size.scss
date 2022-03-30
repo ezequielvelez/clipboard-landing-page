@@ -1,0 +1,11 @@
+//Tamaño de fuente
+@mixin media-body($size){ 
+    @media screen and (min-width: $size) {
+        @if $size == $o-md {
+            font-size: 20px;
+        }@else if $size == $o-xl{
+            font-size: 22px;
+        }
+
+    }
+}

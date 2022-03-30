@@ -1,3 +1,7 @@
+/******************************************************************************************
+*****************************************OBJECTS*******************************************
+******************************************************************************************/
+
 /**************************************GRID***************************************/
 .o-container-grid {
     display: grid;
@@ -7,60 +11,31 @@
     align-items: center;
 }
 
-
 .o-container-grid--ac--start {
     align-content: start;
 }
+
+.o-container-grid--ac--end {
+    align-content: end;
+}
+
+.o-container-grid--ac--center {
+    align-content: center;
+}
+
 
 .o-container-grid--ai--start {
     align-items: start;
 }
 
-//Gap 
-//sm
-.o-container-grid--column--gap--sm {
-    @include column-gap-sm;
+.o-container-grid--ai--end {
+    align-items: end;
 }
 
-.o-container-grid--row--gap--sm {
-    @include row-gap-sm;
+.o-container-grid--ai--center {
+    align-items: center;
 }
 
-//md
-.o-container-grid--column--gap--md {
-    @include column-gap-sm;
-}
-
-.o-container-grid--row--gap--md {
-    @include row-gap-md;
-}
-
-//bg
-.o-container-grid--column--gap--bg {
-    @include column-gap-bg;
-}
-
-.o-container-grid--row--gap--bg {
-    @include row-gap-bg;
-}
-
-//xbg
-.o-container-grid--column--gap--xbg {
-    @include column-gap-xbg;
-}
-
-.o-container-grid--row--gap--xbg {
-    @include row-gap-xbg;
-}
-
-
-@mixin column-gap-sm {
-    column-gap: map-get($map: $gap, $key: 'sm');
-}
-
-@mixin row-gap-sm {
-    row-gap: map-get($map: $gap, $key: 'sm');
-}
 
 
 
