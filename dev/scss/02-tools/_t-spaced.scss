@@ -71,11 +71,11 @@
 @mixin mq-column-gap($size, $column-gap) {
     @if $size < $o-sm {
         @media screen and (max-width: $size) {
-            row-gap: $column-gap;
+            column-gap: $column-gap;
         }
     }@else{
         @media screen and (min-width: $size) {
-            row-gap: $column-gap;
+            column-gap: $column-gap;
         }
     }
 }

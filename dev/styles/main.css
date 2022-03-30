@@ -478,38 +478,6 @@ p {
   align-items: center;
 }
 
-.o-container-grid--column--gap--sm {
-  column-gap: 2rem;
-}
-
-.o-container-grid--row--gap--sm {
-  row-gap: 2rem;
-}
-
-.o-container-grid--column--gap--md {
-  column-gap: 2rem;
-}
-
-.o-container-grid--row--gap--md {
-  row-gap: 4rem;
-}
-
-.o-container-grid--column--gap--bg {
-  column-gap: 6rem;
-}
-
-.o-container-grid--row--gap--bg {
-  row-gap: 6rem;
-}
-
-.o-container-grid--column--gap--xbg {
-  column-gap: 8rem;
-}
-
-.o-container-grid--row--gap--xbg {
-  row-gap: 8rem;
-}
-
 /**************************************HEADER***************************************/
 .o-header {
   min-height: 100vh;
@@ -534,8 +502,8 @@ p {
 .o-computer__title--mb--sm {
   margin-bottom: 2rem;
 }
-.o-computer__paragraph--mb--bg {
-  margin-bottom: 6rem;
+.o-computer__paragraph--mb--md {
+  margin-bottom: 4rem;
 }
 
 /**************************************DEVICES***************************************/
@@ -598,6 +566,17 @@ p {
 /******************************************************************************************
 **************************************COMPONENTS*******************************************
 ******************************************************************************************/
+/**************************************LOGO***************************************/
+.c-logo--bg {
+  width: 8rem;
+  height: auto;
+}
+
+.c-logo--sm {
+  width: 4rem;
+  height: auto;
+}
+
 /**************************************NAV***************************************/
 .c-nav__links {
   display: grid;
@@ -616,17 +595,6 @@ p {
   justify-content: center;
   align-items: center;
   gap: 2.5rem;
-}
-
-/**************************************LOGO***************************************/
-.c-logo--bg {
-  width: 8rem;
-  height: auto;
-}
-
-.c-logo--sm {
-  width: 4rem;
-  height: auto;
 }
 
 /**************************************BUTTONS***************************************/
@@ -669,8 +637,7 @@ p {
 /******************************************************************************************
 *************************************MEDIAQUERIES******************************************
 ******************************************************************************************/
-/***********************************MEDIAQUERIES*****************************************/
-/**************************Mediaqueries***************************/
+/***********************************GRID*****************************************/
 /******************Mobile********************/
 @media screen and (max-width: 479px) {
   .o-container-grid__col-12-col-1 {
@@ -3016,9 +2983,10 @@ p {
   }
 }
 
+/***********************************Spaced*********************************/
 @media screen and (max-width: 479px) {
   .o-container-grid--column--gap--xs--mq--sm {
-    row-gap: 2rem;
+    column-gap: 2rem;
   }
 }
 
@@ -3030,7 +2998,7 @@ p {
 
 @media screen and (max-width: 479px) {
   .o-container-grid--column--gap--xs--mq--md {
-    row-gap: 4rem;
+    column-gap: 4rem;
   }
 }
 
@@ -3042,7 +3010,7 @@ p {
 
 @media screen and (max-width: 479px) {
   .o-container-grid--column--gap--xs--mq--bg {
-    row-gap: 6rem;
+    column-gap: 6rem;
   }
 }
 
@@ -3054,7 +3022,7 @@ p {
 
 @media screen and (max-width: 479px) {
   .o-container-grid--column--gap--xs--mq--xbg {
-    row-gap: 8rem;
+    column-gap: 8rem;
   }
 }
 
@@ -3066,7 +3034,7 @@ p {
 
 @media screen and (max-width: 479px) {
   .o-container-grid--column--gap--sm--mq--sm {
-    row-gap: 2rem;
+    column-gap: 2rem;
   }
 }
 
@@ -3078,7 +3046,7 @@ p {
 
 @media screen and (min-width: 480px) {
   .o-container-grid--column--gap--sm--mq--md {
-    row-gap: 4rem;
+    column-gap: 4rem;
   }
 }
 
@@ -3090,7 +3058,7 @@ p {
 
 @media screen and (min-width: 480px) {
   .o-container-grid--column--gap--sm--mq--bg {
-    row-gap: 6rem;
+    column-gap: 6rem;
   }
 }
 
@@ -3102,7 +3070,7 @@ p {
 
 @media screen and (min-width: 480px) {
   .o-container-grid--column--gap--sm--mq--xbg {
-    row-gap: 8rem;
+    column-gap: 8rem;
   }
 }
 
@@ -3114,7 +3082,7 @@ p {
 
 @media screen and (min-width: 768px) {
   .o-container-grid--column--gap--md--mq--sm {
-    row-gap: 2rem;
+    column-gap: 2rem;
   }
 }
 
@@ -3126,7 +3094,7 @@ p {
 
 @media screen and (min-width: 768px) {
   .o-container-grid--column--gap--md--mq--md {
-    row-gap: 4rem;
+    column-gap: 4rem;
   }
 }
 
@@ -3138,7 +3106,7 @@ p {
 
 @media screen and (min-width: 768px) {
   .o-container-grid--column--gap--md--mq--bg {
-    row-gap: 6rem;
+    column-gap: 6rem;
   }
 }
 
@@ -3150,7 +3118,7 @@ p {
 
 @media screen and (min-width: 768px) {
   .o-container-grid--column--gap--md--mq--xbg {
-    row-gap: 8rem;
+    column-gap: 8rem;
   }
 }
 
@@ -3162,7 +3130,7 @@ p {
 
 @media screen and (min-width: 992px) {
   .o-container-grid--column--gap--lg--mq--sm {
-    row-gap: 2rem;
+    column-gap: 2rem;
   }
 }
 
@@ -3174,7 +3142,7 @@ p {
 
 @media screen and (min-width: 992px) {
   .o-container-grid--column--gap--lg--mq--md {
-    row-gap: 4rem;
+    column-gap: 4rem;
   }
 }
 
@@ -3186,7 +3154,7 @@ p {
 
 @media screen and (min-width: 992px) {
   .o-container-grid--column--gap--lg--mq--bg {
-    row-gap: 6rem;
+    column-gap: 6rem;
   }
 }
 
@@ -3198,7 +3166,7 @@ p {
 
 @media screen and (min-width: 992px) {
   .o-container-grid--column--gap--lg--mq--xbg {
-    row-gap: 8rem;
+    column-gap: 8rem;
   }
 }
 
@@ -3210,7 +3178,7 @@ p {
 
 @media screen and (min-width: 1200px) {
   .o-container-grid--column--gap--xl--mq--sm {
-    row-gap: 2rem;
+    column-gap: 2rem;
   }
 }
 
@@ -3222,7 +3190,7 @@ p {
 
 @media screen and (min-width: 1200px) {
   .o-container-grid--column--gap--xl--mq--md {
-    row-gap: 4rem;
+    column-gap: 4rem;
   }
 }
 
@@ -3234,7 +3202,7 @@ p {
 
 @media screen and (min-width: 1200px) {
   .o-container-grid--column--gap--xl--mq--bg {
-    row-gap: 6rem;
+    column-gap: 6rem;
   }
 }
 
@@ -3246,7 +3214,7 @@ p {
 
 @media screen and (min-width: 1200px) {
   .o-container-grid--column--gap--xl--mq--xbg {
-    row-gap: 8rem;
+    column-gap: 8rem;
   }
 }
 
@@ -3267,6 +3235,7 @@ p {
   }
 }
 
+/**************************Details************************************/
 @media screen and (min-width: 992px) {
   .o-computer {
     padding-left: 0;
@@ -3288,7 +3257,7 @@ p {
 }
 @media screen and (min-width: 768px) {
   .o-workflow {
-    margin-bottom: 4rem;
+    margin-bottom: 10rem;
   }
 }
 @media screen and (min-width: 992px) {
