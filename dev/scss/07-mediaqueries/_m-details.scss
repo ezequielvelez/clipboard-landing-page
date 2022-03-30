@@ -15,7 +15,7 @@
 }
 
 
-@media screen and (min-width: $o-md) {
+@media screen and (min-width: $o-lg) {
     .c-buttons {
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
@@ -24,24 +24,38 @@
 
 @media screen and (min-width: $o-md) {
     .o-workflow {
+        margin-bottom: 4rem;
+    }
+}
+
+@media screen and (min-width: $o-lg) {
+    .o-workflow {
         margin-bottom: 10rem;
     }
 }
 
-@media screen and (min-width: $o-md) {
+@media screen and (min-width: $o-lg) {
     .c-nav {
         &__links {
-            height: 200px;
-            justify-content: flex-start;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
             align-items: center;
+            justify-content: start;
             gap: 1rem;
             text-align: left;
         }
         &__links li {
             width: 100%;
             max-width: 150px;
-            flex-basis: 50px;
+            flex-basis: 10px;
         }
+    }
+    .c-logo--sm {
+        width: 5rem;
+    }
+    .o-footer li {
+        margin-bottom: 0;
+        line-height: 2;
     }
 }
 

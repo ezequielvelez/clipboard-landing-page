@@ -1,11 +1,10 @@
 /**************************************NAV***************************************/
 .c-nav {
     &__links {
-        display: flex;
-        flex-flow: column wrap;
+        display:grid;
+        grid-template-columns: 100%;
         justify-content: center;
         align-items: center;
-        text-align: center;
     }
     &__links li {
         width: 100%;

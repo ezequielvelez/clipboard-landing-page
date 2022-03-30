@@ -4,11 +4,16 @@
     grid-template-columns: repeat(12, 1fr);    
     align-content: center;
     justify-content: center;
+    align-items: center;
 }
 
 
 .o-container-grid--ac--start {
     align-content: start;
+}
+
+.o-container-grid--ai--start {
+    align-items: start;
 }
 
 //Gap 

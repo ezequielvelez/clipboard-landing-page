@@ -2,7 +2,9 @@
 .o-footer {
     box-sizing: content-box;
     background-color: rgb(235, 235, 235);
-    @include min-height-page-80;
+    height: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .o-footer li {
