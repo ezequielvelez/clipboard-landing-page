@@ -443,14 +443,14 @@ p {
 }
 
 header {
-  background-image: url("../../assets/images/bg-header-mobile.png");
+  background-image: url("../assets/images/bg-header-mobile.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 @media screen and (min-width: 1440px) {
   header {
-    background-image: url("../../assets/images/bg-header-desktop.png");
+    background-image: url("../assets/images/bg-header-desktop.png");
   }
 }
 /******************************************************************************************
@@ -3273,7 +3273,7 @@ header {
 }
 @media screen and (min-width: 992px) {
   .o-workflow {
-    margin-bottom: 10rem;
+    margin-bottom: 8rem;
   }
 }
 @media screen and (min-width: 992px) {
