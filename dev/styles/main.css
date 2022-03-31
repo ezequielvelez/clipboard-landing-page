@@ -606,12 +606,21 @@ header {
   justify-content: center;
   align-items: center;
 }
-.c-nav__links li {
+.c-nav .links__item {
   width: 100%;
 }
 
+.link {
+  transition: color 0.16s linear 0.16s;
+}
+
+@media (hover: hover) {
+  .is-hover:hover {
+    color: #26baa4;
+  }
+}
 /**************************************SOCIAL MEDIA***************************************/
-.c-social-media__list {
+.c-social-media__links {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
@@ -619,6 +628,15 @@ header {
   gap: 2.5rem;
 }
 
+.icon {
+  transition: fill 0.16s linear 0.16s;
+}
+
+@media (hover: hover) {
+  .icon.is-hover:hover {
+    fill: #26baa4;
+  }
+}
 /**************************************BUTTONS***************************************/
 .c-buttons {
   width: 100%;

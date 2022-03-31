@@ -1,6 +1,6 @@
 /**************************************SOCIAL MEDIA***************************************/
 .c-social-media {
-    &__list {
+    &__links {
         display: flex;
         flex-flow: row nowrap;
         justify-content: center;
@@ -8,4 +8,15 @@
         gap: 2.5rem;
     }
 };
+
+.icon {
+    transition: fill .16s linear .16s;
+}
+
+
+@media (hover: hover) {
+    .icon.is-hover:hover {
+        fill: map-get($map: $s-primary-colors, $key: 'strong-cyan');
+    }
+}
 
