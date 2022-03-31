@@ -26,6 +26,9 @@
     .o-workflow {
         margin-bottom: 10rem;
     }
+    footer {
+        font-size: 18px;
+    }
 }
 
 @media screen and (min-width: $o-lg) {
@@ -64,3 +67,4 @@
         justify-content: space-evenly;
     }
 }
+

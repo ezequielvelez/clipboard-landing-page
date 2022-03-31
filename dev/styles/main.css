@@ -442,6 +442,17 @@ p {
   margin-right: auto;
 }
 
+header {
+  background-image: url("../../assets/images/bg-header-mobile.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 1440px) {
+  header {
+    background-image: url("../../assets/images/bg-header-desktop.png");
+  }
+}
 /******************************************************************************************
 *****************************************OBJECTS*******************************************
 ******************************************************************************************/
@@ -481,8 +492,6 @@ p {
 /**************************************HEADER***************************************/
 .o-header {
   min-height: 100vh;
-  margin-top: 1em;
-  margin-bottom: 1em;
   box-sizing: content-box;
 }
 .o-header__title {
@@ -3226,15 +3235,13 @@ p {
 
 @media screen and (min-width: 768px) {
   body {
+    font-size: 24px;
+  }
+
+  footer {
     font-size: 20px;
   }
 }
-@media screen and (min-width: 1200px) {
-  body {
-    font-size: 22px;
-  }
-}
-
 /**************************Details************************************/
 @media screen and (min-width: 992px) {
   .o-computer {
@@ -3258,6 +3265,10 @@ p {
 @media screen and (min-width: 768px) {
   .o-workflow {
     margin-bottom: 10rem;
+  }
+
+  footer {
+    font-size: 18px;
   }
 }
 @media screen and (min-width: 992px) {
