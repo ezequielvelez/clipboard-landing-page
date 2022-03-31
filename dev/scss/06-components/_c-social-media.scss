@@ -15,8 +15,9 @@
 
 
 @media (hover: hover) {
-    .icon.is-hover:hover {
+    .is-hover:hover {
         fill: map-get($map: $s-primary-colors, $key: 'strong-cyan');
     }
 }
+
 

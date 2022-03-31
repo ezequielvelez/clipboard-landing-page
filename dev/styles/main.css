@@ -616,11 +616,19 @@ header {
   transition: color 0.16s linear 0.16s;
 }
 
+.is-visited:visited {
+  color: #6173ff;
+}
+
 @media (hover: hover) {
   .is-hover:hover {
     color: #26baa4;
   }
 }
+.is-active:active {
+  color: #26baa4;
+}
+
 /**************************************SOCIAL MEDIA***************************************/
 .c-social-media__links {
   display: flex;
@@ -635,7 +643,7 @@ header {
 }
 
 @media (hover: hover) {
-  .icon.is-hover:hover {
+  .is-hover:hover {
     fill: #26baa4;
   }
 }

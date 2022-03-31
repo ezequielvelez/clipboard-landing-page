@@ -18,12 +18,20 @@
     transition: color .16s linear .16s;
 }
 
+.is-visited:visited {
+    color: hsl(233, 100%, 69%);
+}
+
+
 @media (hover: hover) {
     .is-hover:hover {
         color: map-get($map: $s-primary-colors, $key: 'strong-cyan');
     }
 }
 
+.is-active:active {
+    color: map-get($map: $s-primary-colors, $key: 'strong-cyan');
+}
 
 
 
