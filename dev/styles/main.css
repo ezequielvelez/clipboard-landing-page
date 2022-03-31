@@ -627,11 +627,11 @@ header {
 }
 
 .c-button--cyan {
-  background-color: #26baa4;
+  background: #26baa4;
 }
 
 .c-button--purple {
-  background-color: #6173ff;
+  background: #6173ff;
 }
 
 /**************************************CARDS***************************************/

@@ -18,10 +18,14 @@
 }
 
 .c-button--cyan {
-    background-color: map-get($map: $s-primary-colors, $key: 'strong-cyan');
+    background: map-get($map: $s-primary-colors, $key: 'strong-cyan');
 }
 
 .c-button--purple {
-    background-color: map-get($map: $s-primary-colors, $key: 'light-blue');
+    background: map-get($map: $s-primary-colors, $key: 'light-blue');
+}
+
+.is-hover  {
+
 }
 
