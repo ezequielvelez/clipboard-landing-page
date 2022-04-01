@@ -1,0 +1,19 @@
+/**************************************FOOTER***************************************/
+.o-footer {
+    box-sizing: content-box;
+    background-color: rgb(235, 235, 235);
+    height: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.o-footer li {
+    @include mb-sm;
+}
+
+.o-footer .mb-0 {
+    margin-bottom: 0;
+}
+
+
+

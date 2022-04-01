@@ -1,0 +1,70 @@
+/**************************Details************************************/
+@media  screen and (min-width: $o-lg) {
+    .o-computer {
+        padding-left: 0;
+    }
+}
+
+@media screen and (min-width: $o-lg) {
+    .o-computer__features {
+        text-align: left;
+        & p {
+            margin-left: 0;
+        }
+    }
+}
+
+
+@media screen and (min-width: $o-lg) {
+    .c-buttons {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+}
+
+@media screen and (min-width: $o-md) {
+    .o-workflow {
+        margin-bottom: 10rem;
+    }
+    footer {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: $o-lg) {
+    .o-workflow {
+        margin-bottom: 8rem;
+    }
+}
+
+@media screen and (min-width: $o-lg) {
+    .c-nav {
+        &__links {
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            align-items: center;
+            justify-content: start;
+            gap: 1rem;
+            text-align: left;
+        }
+        &__links li {
+            width: 100%;
+            max-width: 150px;
+            flex-basis: 10px;
+        }
+    }
+    .c-logo--sm {
+        width: 5rem;
+    }
+    .o-footer li {
+        margin-bottom: 0;
+        line-height: 2;
+    }
+}
+
+@media  screen and (min-width: $o-md) {
+    .o-container-grid--jc--evenly--md {
+        justify-content: space-evenly;
+    }
+}
+

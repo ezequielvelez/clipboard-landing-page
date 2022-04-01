@@ -1,0 +1,40 @@
+/**************************************NAV***************************************/
+.c-nav {
+    &__links {
+        display:grid;
+        grid-template-columns: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .links__item {
+        width: 100%;
+    }
+}
+
+
+.link {
+    transition: color .16s linear .16s;
+    color: hsl(210, 10%, 33%);
+}
+
+
+/*
+.is-visited:visited {
+    color: hsl(233, 100%, 69%);
+}
+*/
+
+
+
+@media (hover: hover) {
+    .is-hover:hover {
+        color: map-get($map: $s-primary-colors, $key: 'strong-cyan');
+    }
+}
+
+.is-active:active {
+    color: map-get($map: $s-primary-colors, $key: 'strong-cyan');
+}
+
+
+

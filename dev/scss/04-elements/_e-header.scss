@@ -1,0 +1,12 @@
+header {
+    background-image: url('../assets/images/bg-header-mobile.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 1440px) {
+    header {
+        background-image: url('../assets/images/bg-header-desktop.png');
+    }
+}
+

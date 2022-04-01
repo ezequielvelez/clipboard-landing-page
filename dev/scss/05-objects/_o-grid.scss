@@ -1,0 +1,52 @@
+/******************************************************************************************
+*****************************************OBJECTS*******************************************
+******************************************************************************************/
+
+/**************************************GRID***************************************/
+.o-container-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);    
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.o-container-grid--ac--start {
+    align-content: start;
+}
+
+.o-container-grid--ac--end {
+    align-content: end;
+}
+
+.o-container-grid--ac--center {
+    align-content: center;
+}
+
+
+.o-container-grid--ai--start {
+    align-items: start;
+}
+
+.o-container-grid--ai--end {
+    align-items: end;
+}
+
+.o-container-grid--ai--center {
+    align-items: center;
+}
+
+.o-container-grid--repeat-12-auto {
+    display: grid;
+    grid-template-columns: 0 repeat(10, 1fr) 0;    
+    align-content: start;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
+
+
+

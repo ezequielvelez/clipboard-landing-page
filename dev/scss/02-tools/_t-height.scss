@@ -1,0 +1,29 @@
+//Mixins height pages
+@mixin min-height-page-50 {
+    min-height: 50vh;
+}
+
+@mixin min-height-page-80 {
+    min-height: 80vh;
+}
+
+@mixin min-height-page-100 {
+    min-height: 100vh;
+}
+
+@mixin min-height-page-120 {
+    min-height: 120vh;
+}
+
+@mixin min-height-page-150 {
+    min-height: 150vh;
+}
+
+@mixin min-height-page-200 {
+    min-height: 200vh;
+}
+
+@mixin height-page-auto {
+    height: auto;
+}
+

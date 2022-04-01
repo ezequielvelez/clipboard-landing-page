@@ -1,0 +1,15 @@
+/**************************************LIST TAGS***************************************/
+ul {
+    list-style: none;
+    padding: 0;
+    li {
+        color: map-get($map: $s-neutral-colors, $key: 'dark-grayish-blue');
+    }
+}
+
+
+
+
+
+
+

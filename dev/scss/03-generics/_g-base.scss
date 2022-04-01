@@ -1,0 +1,40 @@
+/**************************************BASE***************************************/
+
+html {
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    font-family: $s-font-family;
+    font-size: $s-font-size-body;
+    font-weight: $s-font-weights-normal;
+}
+
+
+h1,
+h2,
+h3,
+a {
+    font-weight: $s-font-weights-bold;
+}
+
+
+p {
+    padding: 0;
+}
+
+nav, 
+ul {
+    margin: 0;
+}

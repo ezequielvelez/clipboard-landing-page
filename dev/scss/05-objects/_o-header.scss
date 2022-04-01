@@ -1,0 +1,16 @@
+/**************************************HEADER***************************************/
+.o-header {
+    @include min-height-page-100;
+    padding-right: 2em;
+    padding-left: 2em;
+    &__title {
+        @include mb-sm;
+    }
+}
+
+
+
+
+
+
+

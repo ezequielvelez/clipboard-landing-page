@@ -1,0 +1,49 @@
+//01 - Importing settings
+@import './01-settings/s-breakpoints';
+@import './01-settings/s-spaced';
+@import './01-settings/s-colors';
+@import './01-settings/s-fonts';
+
+//02 - Importing tools
+@import './02-tools/t-grid';
+@import './02-tools/t-spaced';
+@import './02-tools/t-height';
+
+//03 - Importing generics
+@import './03-generics/g-normalize';
+@import './03-generics/g-base';
+
+//04 - Importing elements
+@import './04-elements/e-headings';
+@import './04-elements/e-images';
+@import './04-elements/e-list';
+@import './04-elements/e-links';
+@import './04-elements/e-paragraphs';
+@import './04-elements/e-header';
+@import './04-elements/e-body';
+
+//05 - Importing Objects
+@import './05-objects/o-grid';
+@import './05-objects/sections';
+@import './05-objects/o-header';
+@import './05-objects/o-computer';
+@import './05-objects/o-devices';
+@import './05-objects/o-workflow';
+@import './05-objects/o-branding';
+@import './05-objects/o-download';
+@import './05-objects/o-footer';
+
+//06 - Importing components
+@import './06-components/c-logo';
+@import './06-components/c-nav';
+@import './06-components/c-social-media';
+@import './06-components/c-buttons';
+@import './06-components/c-cards';
+@import './06-components/c-brandings';
+
+//07- Importing mediaqueries
+@import './07-mediaqueries/m-grid';
+@import './07-mediaqueries/m-spaced';
+@import './07-mediaqueries/m-font-size';
+@import './07-mediaqueries/m-details';
+
