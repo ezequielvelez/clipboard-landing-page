@@ -19,5 +19,21 @@
 
 }
 
+@media  screen and (min-width: $o-lg) {
+    .o-computer {
+        padding-left: 0;
+    }
+}
+
+@media screen and (min-width: $o-lg) {
+    .o-computer__features {
+        text-align: left;
+        & p {
+            margin-left: 0;
+        }
+    }
+}
+
+
 
 

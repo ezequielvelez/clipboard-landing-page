@@ -457,6 +457,7 @@ header {
   border: 2px solid #fff;
 }
 
+/*******************Variables objects*****************/
 /******************************************************************************************
 *****************************************OBJECTS*******************************************
 ******************************************************************************************/
@@ -501,6 +502,11 @@ header {
   align-items: center;
 }
 
+@media screen and (min-width: 768px) {
+  .o-container-grid--jc--evenly--md {
+    justify-content: space-evenly;
+  }
+}
 /**************************************SECTIONS***************************************/
 .o-workflow,
 .o-branding,
@@ -540,6 +546,19 @@ header {
   margin-bottom: 4rem;
 }
 
+@media screen and (min-width: 992px) {
+  .o-computer {
+    padding-left: 0;
+  }
+}
+@media screen and (min-width: 992px) {
+  .o-computer__features {
+    text-align: left;
+  }
+  .o-computer__features p {
+    margin-left: 0;
+  }
+}
 /**************************************DEVICES***************************************/
 .o-devices {
   min-height: 100vh;
@@ -562,6 +581,20 @@ header {
   margin-bottom: 2rem;
 }
 
+@media screen and (min-width: 768px) {
+  .o-workflow {
+    margin-bottom: 10rem;
+  }
+
+  footer {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .o-workflow {
+    margin-bottom: 8rem;
+  }
+}
 /**************************************LOGOS***************************************/
 .o-branding {
   min-height: 50vh;
@@ -599,6 +632,7 @@ header {
   margin-bottom: 0;
 }
 
+/*******************Variables components*****************/
 /******************************************************************************************
 **************************************COMPONENTS*******************************************
 ******************************************************************************************/
@@ -644,6 +678,30 @@ header {
   color: #26baa4;
 }
 
+@media screen and (min-width: 992px) {
+  .c-nav__links {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+    text-align: left;
+  }
+  .c-nav__links li {
+    width: 100%;
+    max-width: 150px;
+    flex-basis: 10px;
+  }
+
+  .c-logo--sm {
+    width: 5rem;
+  }
+
+  .o-footer li {
+    margin-bottom: 0;
+    line-height: 2;
+  }
+}
 /**************************************SOCIAL MEDIA***************************************/
 .c-social-media__links {
   display: flex;
@@ -715,6 +773,12 @@ header {
   border-bottom-color: #6b7cff;
 }
 
+@media screen and (min-width: 992px) {
+  .c-buttons {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+}
 /**************************************CARDS***************************************/
 .c-cards__image--mb--md {
   margin-bottom: 4rem;
@@ -3321,68 +3385,5 @@ header {
 
   footer {
     font-size: 20px;
-  }
-}
-/**************************Details************************************/
-@media screen and (min-width: 992px) {
-  .o-computer {
-    padding-left: 0;
-  }
-}
-@media screen and (min-width: 992px) {
-  .o-computer__features {
-    text-align: left;
-  }
-  .o-computer__features p {
-    margin-left: 0;
-  }
-}
-@media screen and (min-width: 992px) {
-  .c-buttons {
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-  }
-}
-@media screen and (min-width: 768px) {
-  .o-workflow {
-    margin-bottom: 10rem;
-  }
-
-  footer {
-    font-size: 18px;
-  }
-}
-@media screen and (min-width: 992px) {
-  .o-workflow {
-    margin-bottom: 8rem;
-  }
-}
-@media screen and (min-width: 992px) {
-  .c-nav__links {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    align-items: center;
-    justify-content: start;
-    gap: 1rem;
-    text-align: left;
-  }
-  .c-nav__links li {
-    width: 100%;
-    max-width: 150px;
-    flex-basis: 10px;
-  }
-
-  .c-logo--sm {
-    width: 5rem;
-  }
-
-  .o-footer li {
-    margin-bottom: 0;
-    line-height: 2;
-  }
-}
-@media screen and (min-width: 768px) {
-  .o-container-grid--jc--evenly--md {
-    justify-content: space-evenly;
   }
 }

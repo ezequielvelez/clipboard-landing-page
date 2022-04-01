@@ -44,6 +44,12 @@
     align-items: center;
 }
 
+@media  screen and (min-width: $o-md) {
+    .o-container-grid--jc--evenly--md {
+        justify-content: space-evenly;
+    }
+}
+
 
 
 

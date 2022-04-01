@@ -48,3 +48,10 @@
     background: lighten($color: $c-purple, $amount: 7%);
     border-bottom-color: lighten($color: $c-purple, $amount: 2%);
 }
+
+@media screen and (min-width: $c-lg) {
+    .c-buttons {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+}
