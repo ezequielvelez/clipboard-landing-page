@@ -15,13 +15,27 @@
     border-radius: 2rem;
     @include mb-sm;
     color: #fff;
+    transition: background .16s linear .16s;
 }
 
 .c-button--cyan {
-    background: map-get($map: $s-primary-colors, $key: 'strong-cyan');
+    background: $c-cyan;
+    border-bottom: 3.5px solid darken($color: $c-cyan, $amount: 30%);
 }
 
 .c-button--purple {
-    background: map-get($map: $s-primary-colors, $key: 'light-blue');
+    background: $c-purple;
+    border-bottom: 3.5px solid darken($color: $c-purple, $amount: 50%);
+}
+
+@media (hover: hover) {
+    .is-hover-cyan-btn:hover {
+        background: lighten($color: $c-cyan, $amount: 20%);
+        border-bottom-color: lighten($color: $c-cyan, $amount: 3%);
+    }
+    .is-hover-purple-btn:hover {
+        background: lighten($color: $c-purple, $amount: 7%);
+        border-bottom-color: lighten($color: $c-purple, $amount: 2%);
+    }
 }
 

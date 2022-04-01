@@ -625,6 +625,7 @@ header {
 .link {
   transition: color 0.16s linear 0.16s;
   color: #4c545d;
+  color: #4c545d;
 }
 
 /*
@@ -633,7 +634,7 @@ header {
 }
 */
 @media (hover: hover) {
-  .is-hover:hover {
+  .is-hover-cyan:hover {
     color: #26baa4;
   }
 }
@@ -655,7 +656,7 @@ header {
 }
 
 @media (hover: hover) {
-  .is-hover:hover {
+  .is-hover-cyan:hover {
     fill: #26baa4;
   }
 }
@@ -677,16 +678,30 @@ header {
   border-radius: 2rem;
   margin-bottom: 2rem;
   color: #fff;
+  transition: background 0.16s linear 0.16s;
 }
 
 .c-button--cyan {
   background: #26baa4;
+  border-bottom: 3.5px solid #0c3b34;
 }
 
 .c-button--purple {
   background: #6173ff;
+  border-bottom: 3.5px solid #000b61;
 }
 
+@media (hover: hover) {
+  .is-hover-cyan-btn:hover {
+    background: #67e0ce;
+    border-bottom-color: #29c7af;
+  }
+
+  .is-hover-purple-btn:hover {
+    background: #8593ff;
+    border-bottom-color: #6b7cff;
+  }
+}
 /**************************************CARDS***************************************/
 .c-cards__image--mb--md {
   margin-bottom: 4rem;

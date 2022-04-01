@@ -1,0 +1,4 @@
+$c-cyan: map-get($map: $s-primary-colors, $key: 'strong-cyan');
+$c-purple: map-get($map: $s-primary-colors, $key: 'light-blue');
+$c-dark-grayish-blue: map-get($map: $s-neutral-colors, $key: 'dark-grayish-blue');
+$c-grayish-blue: map-get($map: $s-neutral-colors, $key: 'grayish-blue');
