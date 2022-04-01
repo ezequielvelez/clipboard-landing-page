@@ -1,0 +1,88 @@
+Transiciones
+
+Estados 
+.is-disabled
+.is-hover
+
+
+transition-property
+transition-duration -> seg mseg
+transition-timing-function ->
+    none
+    linear
+    ease
+    ease-in
+    ease-out
+    ease-in-out
+    steps
+transition-delay -> seg mseg
+transition: property duration timind function delay
+
+estado hover
+
+.caja {
+    magenta
+    transition-property: color
+    transition-duration
+    transition-timing-function 
+    transition-delay
+}
+
+.caja {
+    magenta
+    transition: color 1s
+}
+
+.caja {
+    magenta
+    transition: all 1s
+}
+
+
+.caja:hover {
+    cyan
+}
+
+caja {
+    trancision: propiedad1 ||| ||| |||, propiedad2, || ||| || ,ṕropiedad3 || || ||;
+}
+
+caja:hover {
+    propiedad1
+    propiedad2
+    propiedad3
+    
+}
+
+--------------------------------------------------
+trnasition all trnasicon de todas las propiedades
+de la caja no solo en el hovers
+sino en la cajaen si misma
+--------------------------------------------------
+
+Por eso no utilizar all
+
+
+--------------------------------------------------
+Aun así por cada recarga del navegador
+si se ven cambio auqune no coloco el mouse
+afectada cascada
+especificidad
+herencia
+
+como en el selector inicial no tiene
+fondo de fondo
+y luego hover le agrego un color de fondo
+y la transicion afectada
+al recargar el navegador lo aplica sin hover no al
+fondo con color sino a la propiedad en si misma
+y pasa de blacno a magenta
+
+No solo afecta en el estado sino tambien
+afuera de este
+
+APLICA DESDE QUE SE RECARGA LA PÁGINA 
+SOLUCION APLCAR EL COLOR DE FONDO DESDE
+BACKGROUND Y NO BACKGROUND COLOR
+
+

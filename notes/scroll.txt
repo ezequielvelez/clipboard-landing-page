@@ -1,0 +1,76 @@
+SCROLL.
+Es el desplazamiento de la página.
+
+Cómo agegar un margen al momento de dar scroll.
+    A las secciones le coloca la clase slide.
+    A la clase slide que tiene las secciones le da la altura
+    del tamaño del viewport.
+    Puso posicion stricky al header ya que no tapa el siguiente contenido.
+    Cuando haces clicik en el enclace coloca en top 0 el comienzo
+    del section tapando el contenido.
+    Podemos, entonces, colocarle un un padding top, pero...
+    Podemos agregarle la siguiente propiedad
+
+
+        Cuando trabajajes con enlaces internos trabaja con un SCROLL
+        margin a las secciones
+            [id=^section] {
+                scroll-margin-top
+                        scroll-margin-left
+                        ...
+                        ...
+            }
+    
+Cómo suavizar el desplazamiento.
+    Al documento html darle un scroll-behavior: smooth;
+        html {
+            scroll-behavior: smooth;
+        }
+
+    ESTP APLICARÁ AL SCROLL CUÁNDO ESTÉ NAVEGANDO
+    ENTRE SECCIONES, PERO POR MEDIO DE LOS 
+    ENLACES DE NAVEGACIÓN
+        
+Cómo ajustar el desplazamiento.
+    Ahora si queremos es un efecto similar ajustandose a las diferentes
+    secctiones tenemos que usar un scroll-snap
+    Al contenedor de las secciones le agrega la case slides
+    A cada sección le agrega la clase slide-container o slice estaría bien.
+    Dentro del contenedor, coloca todo el contenido.
+
+        <slides main>
+            <slide section>
+                <slide-container> 
+                    <contenido>
+                </slide-container>
+            </slide section>
+        </slides main>
+
+    .slides {
+        ancho
+        alto del viewport -> necesita el alto 
+        overflow-y: scroll -> necesita el overflow del eje  donde
+                                queramos el ajuste|
+        scroll-snap-type: eje (x|y|inline|block|both) movimiento
+            none
+            mandatory
+            proximity
+    }
+
+    .slide {
+        ancho
+        altura heredada altura del viewport
+        scroll-snap-align: end | start | center
+        
+    }
+
+BARRA DEL SCROLL
+    
+----------------------------------------------------------------------        
+Nota: 
+
+    Estudiar vscode, atajos de teclado y emmet.
+    Estudiar de nuevo los selectores css y aplicarlo
+    al proyecto con Bootstrap.
+    Estudiar Smacss y aplicarlo al proyecto de Bootstrap.
+    No hacer cursos de nuevo, sino secciones aplicadas a proyectos.

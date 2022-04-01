@@ -1,0 +1,27 @@
+ITCSS
+
+variacion
+Los componentes se utlizan modicadores
+para alterar propiedades que no se 
+afectaran a lo largo de vida de la pagina
+
+Los estados se modiicaran a lo largo de vida
+de la pagina como el estado hover
+.is-hover
+.is-disabled
+
+Los componentes se distrbuyen con objetos
+
+.o-objeto
+
+.o-objeto__hijo .c-componente-> distribuyo el componentes
+
+Los elementos del componente se distribuyen en Los
+estilos del componente
+
+Si el componentre es elemento de otro
+componente distribuirlo como hijo de ese componentee
+
+
+c.componente__hijo c.componente
+

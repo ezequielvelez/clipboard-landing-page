@@ -1,0 +1,26 @@
+Hover
+    Usarlo solo en pantall de escritorio
+
+    @media (hover: hover) {
+        selector:hover {
+            ...;
+            ...;
+        }
+    }
+
+    Click
+    Active links o botones para establecer
+    estado activo desde que hacemos click hasta
+    que finaliza
+
+
+    selector:active {
+        ...;
+        ...;
+    }
+
+    NO UTILIZAR LA CLASE HOVER EN ELEMENTOS NO
+    CLICKABLES
+
+    
+
