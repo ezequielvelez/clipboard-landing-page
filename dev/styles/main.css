@@ -444,6 +444,17 @@ header {
     background-image: url("../assets/images/bg-header-desktop.png");
   }
 }
+.scrollbar::-webkit-scrollbar {
+  width: 10px;
+  background-color: #fff;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #9fabb2;
+  border-radius: 30px;
+  border: 2px solid #fff;
+}
+
 /******************************************************************************************
 *****************************************OBJECTS*******************************************
 ******************************************************************************************/

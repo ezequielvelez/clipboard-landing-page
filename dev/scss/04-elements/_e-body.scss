@@ -1,0 +1,12 @@
+.scrollbar::-webkit-scrollbar {
+    width: 10px; 
+    background-color: #fff;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+    background: hsl(201, 11%, 66%);
+    //background: hsl(171, 66%, 44%);
+    border-radius: 30px;
+    border: 2px solid #fff;
+}
+
