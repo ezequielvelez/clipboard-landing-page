@@ -1,5 +1,6 @@
 /**************************************BUTTONS***************************************/
 .c-buttons {
+    box-sizing: border-box;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -31,7 +32,7 @@
 @media (hover: hover) {
     .is-hover-cyan-btn:hover {
         background: lighten($color: $c-cyan, $amount: 20%);
-        border-bottom-color: lighten($color: $c-cyan, $amount: 3%);
+        border-bottom-color: lighten($color: $c-cyan, $amount: 2%);
     }
     .is-hover-purple-btn:hover {
         background: lighten($color: $c-purple, $amount: 7%);
@@ -39,3 +40,11 @@
     }
 }
 
+.is-active-cyan-btn:active {
+    background: lighten($color: $c-cyan, $amount: 20%);
+    border-bottom-color: lighten($color: $c-cyan, $amount: 2%);
+}
+.is-active-purple-btn:active {
+    background: lighten($color: $c-purple, $amount: 7%);
+    border-bottom-color: lighten($color: $c-purple, $amount: 2%);
+}

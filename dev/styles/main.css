@@ -435,13 +435,15 @@ p {
 
 header {
   background-image: url("../assets/images/bg-header-mobile.png");
-  background-size: cover;
+  background-size: 100% auto;
   background-repeat: no-repeat;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 768px) {
   header {
     background-image: url("../assets/images/bg-header-desktop.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
   }
 }
 .scrollbar::-webkit-scrollbar {
@@ -510,7 +512,7 @@ header {
 
 /**************************************HEADER***************************************/
 .o-header {
-  min-height: 100vh;
+  height: 100vh;
   padding-right: 2em;
   padding-left: 2em;
 }
@@ -662,6 +664,7 @@ header {
 }
 /**************************************BUTTONS***************************************/
 .c-buttons {
+  box-sizing: border-box;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -694,7 +697,7 @@ header {
 @media (hover: hover) {
   .is-hover-cyan-btn:hover {
     background: #67e0ce;
-    border-bottom-color: #29c7af;
+    border-bottom-color: #28c3ab;
   }
 
   .is-hover-purple-btn:hover {
@@ -702,6 +705,16 @@ header {
     border-bottom-color: #6b7cff;
   }
 }
+.is-active-cyan-btn:active {
+  background: #67e0ce;
+  border-bottom-color: #28c3ab;
+}
+
+.is-active-purple-btn:active {
+  background: #8593ff;
+  border-bottom-color: #6b7cff;
+}
+
 /**************************************CARDS***************************************/
 .c-cards__image--mb--md {
   margin-bottom: 4rem;
