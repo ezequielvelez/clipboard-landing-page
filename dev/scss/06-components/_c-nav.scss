@@ -15,6 +15,7 @@
 .link {
     transition: color .16s linear .16s;
     color: hsl(210, 10%, 33%);
+    color: $c-dark-grayish-blue;
 }
 
 
@@ -27,13 +28,13 @@
 
 
 @media (hover: hover) {
-    .is-hover:hover {
-        color: map-get($map: $s-primary-colors, $key: 'strong-cyan');
+    .is-hover-cyan:hover {
+        color: $c-cyan;
     }
 }
 
 .is-active:active {
-    color: map-get($map: $s-primary-colors, $key: 'strong-cyan');
+    color: $c-cyan;
 }
 
 
