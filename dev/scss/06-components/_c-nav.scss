@@ -13,14 +13,17 @@
 
 
 .link {
-    color:initial;
-    color: hsl(210, 10%, 33%);
     transition: color .16s linear .16s;
+    color: hsl(210, 10%, 33%);
 }
 
+
+/*
 .is-visited:visited {
     color: hsl(233, 100%, 69%);
 }
+*/
+
 
 
 @media (hover: hover) {

@@ -350,6 +350,7 @@ template {
 /**************************************BASE***************************************/
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -611,15 +612,15 @@ header {
 }
 
 .link {
-  color: initial;
-  color: #4c545d;
   transition: color 0.16s linear 0.16s;
+  color: #4c545d;
 }
 
+/*
 .is-visited:visited {
-  color: #6173ff;
+    color: hsl(233, 100%, 69%);
 }
-
+*/
 @media (hover: hover) {
   .is-hover:hover {
     color: #26baa4;
