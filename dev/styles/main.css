@@ -435,13 +435,15 @@ p {
 
 header {
   background-image: url("../assets/images/bg-header-mobile.png");
-  background-size: cover;
+  background-size: 100% auto;
   background-repeat: no-repeat;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 768px) {
   header {
     background-image: url("../assets/images/bg-header-desktop.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
   }
 }
 .scrollbar::-webkit-scrollbar {
@@ -455,6 +457,7 @@ header {
   border: 2px solid #fff;
 }
 
+/*******************Variables objects*****************/
 /******************************************************************************************
 *****************************************OBJECTS*******************************************
 ******************************************************************************************/
@@ -499,6 +502,11 @@ header {
   align-items: center;
 }
 
+@media screen and (min-width: 768px) {
+  .o-container-grid--jc--evenly--md {
+    justify-content: space-evenly;
+  }
+}
 /**************************************SECTIONS***************************************/
 .o-workflow,
 .o-branding,
@@ -510,7 +518,7 @@ header {
 
 /**************************************HEADER***************************************/
 .o-header {
-  min-height: 100vh;
+  height: 100vh;
   padding-right: 2em;
   padding-left: 2em;
 }
@@ -518,6 +526,11 @@ header {
   margin-bottom: 2rem;
 }
 
+@media screen and (max-height: 700px) {
+  .o-header__title {
+    margin-bottom: 1.3rem;
+  }
+}
 /**************************************COMPUTER***************************************/
 .o-computer {
   box-sizing: content-box;
@@ -538,6 +551,27 @@ header {
   margin-bottom: 4rem;
 }
 
+@media screen and (min-width: 992px) {
+  .o-computer {
+    padding-left: 0;
+  }
+}
+@media screen and (min-width: 992px) {
+  .o-computer__features {
+    text-align: left;
+  }
+  .o-computer__features p {
+    margin-left: 0;
+  }
+}
+@media screen and (max-height: 700px) {
+  .o-computer__title {
+    margin-bottom: 1rem;
+  }
+  .o-computer__paragraph--mb--md {
+    margin-bottom: 2rem;
+  }
+}
 /**************************************DEVICES***************************************/
 .o-devices {
   min-height: 100vh;
@@ -549,6 +583,11 @@ header {
   margin-bottom: 2rem;
 }
 
+@media screen and (max-height: 700px) {
+  .o-devices__title--mb--sm {
+    margin-bottom: 1rem;
+  }
+}
 /**************************************WORKFLOW***************************************/
 .o-workflow {
   min-height: 50vh;
@@ -560,6 +599,29 @@ header {
   margin-bottom: 2rem;
 }
 
+@media screen and (min-width: 768px) {
+  .o-workflow {
+    margin-bottom: 10rem;
+  }
+
+  footer {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .o-workflow {
+    margin-bottom: 8rem;
+  }
+}
+@media screen and (max-heigth: 700px) {
+  .o-workflow {
+    margin-bottom: 6rem;
+  }
+
+  .o-workflow__title--mb--sm {
+    margin-bottom: 1rem;
+  }
+}
 /**************************************LOGOS***************************************/
 .o-branding {
   min-height: 50vh;
@@ -580,6 +642,19 @@ header {
   margin-bottom: 2rem;
 }
 
+@media screen and (max-height: 700px) {
+  .o-downloads {
+    row-gap: 1rem;
+  }
+
+  .o-downloads__title {
+    margin-bottom: 1.5rem;
+  }
+
+  .o-downloads__paragraph {
+    margin-bottom: 2rem;
+  }
+}
 /**************************************FOOTER***************************************/
 .o-footer {
   box-sizing: content-box;
@@ -597,6 +672,7 @@ header {
   margin-bottom: 0;
 }
 
+/*******************Variables components*****************/
 /******************************************************************************************
 **************************************COMPONENTS*******************************************
 ******************************************************************************************/
@@ -607,10 +683,21 @@ header {
 }
 
 .c-logo--sm {
-  width: 4rem;
+  width: 5rem;
   height: auto;
 }
 
+@media screen and (max-height: 700px) {
+  .c-logo--bg {
+    width: 6rem;
+    height: auto;
+  }
+
+  .c-logo--sm {
+    width: 3rem;
+    height: auto;
+  }
+}
 /**************************************NAV***************************************/
 .c-nav__links {
   display: grid;
@@ -642,6 +729,30 @@ header {
   color: #26baa4;
 }
 
+@media screen and (min-width: 992px) {
+  .c-nav__links {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+    text-align: left;
+  }
+  .c-nav__links li {
+    width: 100%;
+    max-width: 150px;
+    flex-basis: 10px;
+  }
+
+  .c-logo--sm {
+    width: 5rem;
+  }
+
+  .o-footer li {
+    margin-bottom: 0;
+    line-height: 2;
+  }
+}
 /**************************************SOCIAL MEDIA***************************************/
 .c-social-media__links {
   display: flex;
@@ -662,6 +773,7 @@ header {
 }
 /**************************************BUTTONS***************************************/
 .c-buttons {
+  box-sizing: border-box;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -683,23 +795,48 @@ header {
 
 .c-button--cyan {
   background: #26baa4;
-  border-bottom: 3.5px solid #0c3b34;
+  border-bottom: 3.5px solid #1d907f;
 }
 
 .c-button--purple {
   background: #6173ff;
-  border-bottom: 3.5px solid #000b61;
+  border-bottom: 3.5px solid #000e7a;
 }
 
 @media (hover: hover) {
   .is-hover-cyan-btn:hover {
     background: #67e0ce;
-    border-bottom-color: #29c7af;
+    border-bottom-color: #28c3ab;
   }
 
   .is-hover-purple-btn:hover {
     background: #8593ff;
     border-bottom-color: #6b7cff;
+  }
+}
+.is-active-cyan-btn:active {
+  background: #67e0ce;
+  border-bottom-color: #28c3ab;
+}
+
+.is-active-purple-btn:active {
+  background: #8593ff;
+  border-bottom-color: #6b7cff;
+}
+
+@media screen and (min-width: 992px) {
+  .c-buttons {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+}
+@media screen and (max-height: 700px) {
+  .c-button {
+    line-height: 2.5;
+  }
+
+  .c-button--cyan {
+    margin-bottom: 1rem;
   }
 }
 /**************************************CARDS***************************************/
@@ -710,6 +847,14 @@ header {
   margin-bottom: 2rem;
 }
 
+@media screen and (max-height: 700px) {
+  .c-cards__image--mb--md {
+    margin-bottom: 2rem;
+  }
+  .c-cards__title--mb--sm {
+    margin-bottom: 1rem;
+  }
+}
 /**************************************BRANDINGS***************************************/
 /******************************************************************************************
 *************************************MEDIAQUERIES******************************************
@@ -3301,6 +3446,30 @@ header {
   }
 }
 
+@media screen and (max-height: 700px) {
+  .o-container-grid--row--gap--height--mq--xs {
+    row-gap: 1rem;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .o-container-grid--row--gap--height--mq--sm {
+    row-gap: 2rem;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .o-container-grid--row--gap--height--mq--md {
+    row-gap: 4rem;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .o-container-grid--row--gap--height--mq--bg {
+    row-gap: 6rem;
+  }
+}
+
 @media screen and (min-width: 768px) {
   body {
     font-size: 24px;
@@ -3310,66 +3479,8 @@ header {
     font-size: 20px;
   }
 }
-/**************************Details************************************/
-@media screen and (min-width: 992px) {
-  .o-computer {
-    padding-left: 0;
-  }
-}
-@media screen and (min-width: 992px) {
-  .o-computer__features {
-    text-align: left;
-  }
-  .o-computer__features p {
-    margin-left: 0;
-  }
-}
-@media screen and (min-width: 992px) {
-  .c-buttons {
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-  }
-}
-@media screen and (min-width: 768px) {
-  .o-workflow {
-    margin-bottom: 10rem;
-  }
-
-  footer {
-    font-size: 18px;
-  }
-}
-@media screen and (min-width: 992px) {
-  .o-workflow {
-    margin-bottom: 8rem;
-  }
-}
-@media screen and (min-width: 992px) {
-  .c-nav__links {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    align-items: center;
-    justify-content: start;
-    gap: 1rem;
-    text-align: left;
-  }
-  .c-nav__links li {
-    width: 100%;
-    max-width: 150px;
-    flex-basis: 10px;
-  }
-
-  .c-logo--sm {
-    width: 5rem;
-  }
-
-  .o-footer li {
-    margin-bottom: 0;
-    line-height: 2;
-  }
-}
-@media screen and (min-width: 768px) {
-  .o-container-grid--jc--evenly--md {
-    justify-content: space-evenly;
+@media screen and (max-height: 700px) {
+  body {
+    font-size: 15px;
   }
 }

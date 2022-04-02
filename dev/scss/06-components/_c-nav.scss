@@ -38,4 +38,27 @@
 }
 
 
-
+@media screen and (min-width: $c-lg) {
+    .c-nav {
+        &__links {
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            align-items: center;
+            justify-content: start;
+            gap: 1rem;
+            text-align: left;
+        }
+        &__links li {
+            width: 100%;
+            max-width: 150px;
+            flex-basis: 10px;
+        }
+    }
+    .c-logo--sm {
+        width: 5rem;
+    }
+    .o-footer li {
+        margin-bottom: 0;
+        line-height: 2;
+    }
+}

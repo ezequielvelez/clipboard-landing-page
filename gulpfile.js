@@ -32,6 +32,7 @@ gulp.task('sass', () => {
         .src('./dev/scss/main.scss')
         .pipe(sass())
         .pipe(gulp.dest('./dev/styles'))
+        .pipe(browserSync.stream());
 });
 
 //CSS task

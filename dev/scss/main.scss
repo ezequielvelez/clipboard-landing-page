@@ -23,6 +23,7 @@
 @import './04-elements/e-body';
 
 //05 - Importing Objects
+@import './05-objects/variables-objects';
 @import './05-objects/o-grid';
 @import './05-objects/sections';
 @import './05-objects/o-header';
@@ -34,7 +35,7 @@
 @import './05-objects/o-footer';
 
 //06 - Importing components
-@import './06-components/c-colors';
+@import './06-components/c-variables-components';
 @import './06-components/c-logo';
 @import './06-components/c-nav';
 @import './06-components/c-social-media';
@@ -46,5 +47,4 @@
 @import './07-mediaqueries/m-grid';
 @import './07-mediaqueries/m-spaced';
 @import './07-mediaqueries/m-font-size';
-@import './07-mediaqueries/m-details';
 

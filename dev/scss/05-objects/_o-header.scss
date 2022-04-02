@@ -1,6 +1,6 @@
 /**************************************HEADER***************************************/
 .o-header {
-    @include min-height-page-100;
+    height: 100vh;
     padding-right: 2em;
     padding-left: 2em;
     &__title {
@@ -8,6 +8,12 @@
     }
 }
 
+
+@media screen and (max-height: 700px) {
+    .o-header__title {
+        margin-bottom: 1.3rem;
+    }
+}
 
 
 

@@ -8,3 +8,14 @@
     }
 }
 
+@media screen and (max-height: 700px) {
+    .c-cards {
+        &__image--mb--md {
+            margin-bottom: 2rem;
+        }
+        &__title--mb--sm {
+            margin-bottom: 1rem;
+        }
+    }
+}
+

@@ -8,3 +8,28 @@
         @include mb-sm;
     }
 }
+
+@media screen and (min-width: $o-md) {
+    .o-workflow {
+        margin-bottom: 10rem;
+    }
+    footer {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: $o-lg) {
+    .o-workflow {
+        margin-bottom: 8rem;
+    }
+}
+
+
+@media screen and (max-heigth: 700px) {
+    .o-workflow {
+        margin-bottom: 6rem;
+    }
+    .o-workflow__title--mb--sm {
+        margin-bottom: 1rem;
+    }
+}

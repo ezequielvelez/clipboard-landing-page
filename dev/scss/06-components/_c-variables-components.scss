@@ -1,3 +1,10 @@
+/*******************Variables components*****************/
+$c-xs: $o-xs;
+$c-sm: $o-sm;
+$c-md: $o-md;
+$c-lg: $o-lg;
+$c-xl: $o-xl;
+
 $c-cyan: map-get($map: $s-primary-colors, $key: 'strong-cyan');
 $c-purple: map-get($map: $s-primary-colors, $key: 'light-blue');
 $c-dark-grayish-blue: map-get($map: $s-neutral-colors, $key: 'dark-grayish-blue');
