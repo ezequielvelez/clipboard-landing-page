@@ -9,6 +9,17 @@
 }
 
 .c-logo--sm {
-    width: 4rem;
+    width: 5rem;
     height: auto;
+}
+
+@media screen and (max-height: 700px) {
+    .c-logo--bg {
+        width: 6rem;
+        height: auto;
+    }
+    .c-logo--sm {
+        width: 3rem;
+        height: auto;
+    }
 }

@@ -5,7 +5,7 @@ $o-md: map-get($map: $s-breakpoints-width, $key: 'md');
 $o-lg: map-get($map: $s-breakpoints-width, $key: 'lg');
 $o-xl: map-get($map: $s-breakpoints-width, $key: 'xl');
 
-
+$o-gap-xs: map-get($map: $gap, $key: 'xs');
 $o-gap-sm: map-get($map: $gap, $key: 'sm');
 $o-gap-md: map-get($map: $gap, $key: 'md');
 $o-gap-bg: map-get($map: $gap, $key: 'bg');

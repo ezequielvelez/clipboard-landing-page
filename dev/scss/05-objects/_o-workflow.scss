@@ -23,3 +23,13 @@
         margin-bottom: 8rem;
     }
 }
+
+
+@media screen and (max-heigth: 700px) {
+    .o-workflow {
+        margin-bottom: 6rem;
+    }
+    .o-workflow__title--mb--sm {
+        margin-bottom: 1rem;
+    }
+}

@@ -526,6 +526,11 @@ header {
   margin-bottom: 2rem;
 }
 
+@media screen and (max-height: 700px) {
+  .o-header__title {
+    margin-bottom: 1.3rem;
+  }
+}
 /**************************************COMPUTER***************************************/
 .o-computer {
   box-sizing: content-box;
@@ -559,6 +564,14 @@ header {
     margin-left: 0;
   }
 }
+@media screen and (max-height: 700px) {
+  .o-computer__title {
+    margin-bottom: 1rem;
+  }
+  .o-computer__paragraph--mb--md {
+    margin-bottom: 2rem;
+  }
+}
 /**************************************DEVICES***************************************/
 .o-devices {
   min-height: 100vh;
@@ -570,6 +583,11 @@ header {
   margin-bottom: 2rem;
 }
 
+@media screen and (max-height: 700px) {
+  .o-devices__title--mb--sm {
+    margin-bottom: 1rem;
+  }
+}
 /**************************************WORKFLOW***************************************/
 .o-workflow {
   min-height: 50vh;
@@ -595,6 +613,15 @@ header {
     margin-bottom: 8rem;
   }
 }
+@media screen and (max-heigth: 700px) {
+  .o-workflow {
+    margin-bottom: 6rem;
+  }
+
+  .o-workflow__title--mb--sm {
+    margin-bottom: 1rem;
+  }
+}
 /**************************************LOGOS***************************************/
 .o-branding {
   min-height: 50vh;
@@ -615,6 +642,19 @@ header {
   margin-bottom: 2rem;
 }
 
+@media screen and (max-height: 700px) {
+  .o-downloads {
+    row-gap: 1rem;
+  }
+
+  .o-downloads__title {
+    margin-bottom: 1.5rem;
+  }
+
+  .o-downloads__paragraph {
+    margin-bottom: 2rem;
+  }
+}
 /**************************************FOOTER***************************************/
 .o-footer {
   box-sizing: content-box;
@@ -643,10 +683,21 @@ header {
 }
 
 .c-logo--sm {
-  width: 4rem;
+  width: 5rem;
   height: auto;
 }
 
+@media screen and (max-height: 700px) {
+  .c-logo--bg {
+    width: 6rem;
+    height: auto;
+  }
+
+  .c-logo--sm {
+    width: 3rem;
+    height: auto;
+  }
+}
 /**************************************NAV***************************************/
 .c-nav__links {
   display: grid;
@@ -744,12 +795,12 @@ header {
 
 .c-button--cyan {
   background: #26baa4;
-  border-bottom: 3.5px solid #0c3b34;
+  border-bottom: 3.5px solid #1d907f;
 }
 
 .c-button--purple {
   background: #6173ff;
-  border-bottom: 3.5px solid #000b61;
+  border-bottom: 3.5px solid #000e7a;
 }
 
 @media (hover: hover) {
@@ -779,6 +830,15 @@ header {
     gap: 2rem;
   }
 }
+@media screen and (max-height: 700px) {
+  .c-button {
+    line-height: 2.5;
+  }
+
+  .c-button--cyan {
+    margin-bottom: 1.5rem;
+  }
+}
 /**************************************CARDS***************************************/
 .c-cards__image--mb--md {
   margin-bottom: 4rem;
@@ -787,6 +847,14 @@ header {
   margin-bottom: 2rem;
 }
 
+@media screen and (max-height: 700px) {
+  .c-cards__image--mb--md {
+    margin-bottom: 2rem;
+  }
+  .c-cards__title--mb--sm {
+    margin-bottom: 1rem;
+  }
+}
 /**************************************BRANDINGS***************************************/
 /******************************************************************************************
 *************************************MEDIAQUERIES******************************************
@@ -3378,6 +3446,30 @@ header {
   }
 }
 
+@media screen and (max-height: 700px) {
+  .o-container-grid--row--gap--height--mq--xs {
+    row-gap: 1rem;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .o-container-grid--row--gap--height--mq--sm {
+    row-gap: 2rem;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .o-container-grid--row--gap--height--mq--md {
+    row-gap: 4rem;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .o-container-grid--row--gap--height--mq--bg {
+    row-gap: 6rem;
+  }
+}
+
 @media screen and (min-width: 768px) {
   body {
     font-size: 24px;
@@ -3385,5 +3477,10 @@ header {
 
   footer {
     font-size: 20px;
+  }
+}
+@media screen and (max-height: 700px) {
+  body {
+    font-size: 15px;
   }
 }

@@ -8,3 +8,11 @@
         @include mb-sm
     }
 }
+
+@media screen and (max-height: 700px) {
+    .o-devices {
+        &__title--mb--sm {
+            margin-bottom: 1rem;
+        }
+    }
+}

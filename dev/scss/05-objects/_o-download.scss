@@ -12,4 +12,16 @@
 }
 
 
+@media screen and (max-height: 700px) {
+    .o-downloads {
+        row-gap: 1rem;
+    }
+    .o-downloads__title {
+        margin-bottom: 1.5rem;
+    }
+    .o-downloads__paragraph {
+        margin-bottom: 2rem;
+    }
+}
+
 

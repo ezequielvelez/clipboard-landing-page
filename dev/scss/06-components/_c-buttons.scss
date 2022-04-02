@@ -21,12 +21,12 @@
 
 .c-button--cyan {
     background: $c-cyan;
-    border-bottom: 3.5px solid darken($color: $c-cyan, $amount: 30%);
+    border-bottom: 3.5px solid darken($color: $c-cyan, $amount: 10%);
 }
 
 .c-button--purple {
     background: $c-purple;
-    border-bottom: 3.5px solid darken($color: $c-purple, $amount: 50%);
+    border-bottom: 3.5px solid darken($color: $c-purple, $amount: 45%);
 }
 
 @media (hover: hover) {
@@ -54,4 +54,14 @@
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
     }
+}
+
+
+@media screen and (max-height: 700px) {
+    .c-button {
+        line-height: 2.5;
+    }
+    .c-button--cyan {
+        margin-bottom: 1.5rem;
+    } 
 }
